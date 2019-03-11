@@ -1,0 +1,81 @@
+Script started on Monday 11 March 2019 11:17:47 PM IST
+]0;s4d1@ceclab2-H110M-S2: ~[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~[00m$ [K]0;s4d1@ceclab2-H110M-S2: ~[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~[00m$ [K]0;s4d1@ceclab2-H110M-S2: ~[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~[00m$ sftp cs17d13@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d13@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> put result.txt
+Uploading result.txt to /home/cs17d13/result.txt
+result.txt                            0%    0     0.0KB/s   --:-- ETAresult.txt                          100%   44KB   6.3MB/s   00:00    
+sftp> ls
+examples.desktop       result.txt             
+sftp> get result.y[Ktxt
+Fetching /home/cs17d13/result.txt to result.txt
+/home/cs17d13/result.txt              0%    0     0.0KB/s   --:-- ETA/home/cs17d13/result.txt            100%   44KB   5.6MB/s   00:00    
+sftp> get result.txt
+Fetching /home/cs17d13/result.txt to result.txt
+/home/cs17d13/result.txt              0%    0     0.0KB/s   --:-- ETA/home/cs17d13/result.txt            100%   44KB   6.5MB/s   00:00    
+sftp> lpwd
+Local working directory: /home/s4d1
+sftp> pwd
+Remote working directory: /home/cs17d13
+sftp> renma[K[Kame result.txt name.txt
+sftp> ls
+examples.desktop    name.txt            
+sftp> get name.txt
+Fetching /home/cs17d13/name.txt to name.txt
+/home/cs17d13/name.txt                                                                                         0%    0     0.0KB/s   --:-- ETA/home/cs17d13/name.txt                                                                                       100%   44KB   5.9MB/s   00:00    
+sftp> version
+SFTP protocol version 3
+sftp> help
+Available commands:
+bye                                Quit sftp
+cd path                            Change remote directory to 'path'
+chgrp grp path                     Change group of file 'path' to 'grp'
+chmod mode path                    Change permissions of file 'path' to 'mode'
+chown own path                     Change owner of file 'path' to 'own'
+df [-hi] [path]                    Display statistics for current directory or
+                                   filesystem containing 'path'
+exit                               Quit sftp
+get [-afPpRr] remote [local]       Download file
+reget [-fPpRr] remote [local]      Resume download file
+reput [-fPpRr] [local] remote      Resume upload file
+help                               Display this help text
+lcd path                           Change local directory to 'path'
+lls [ls-options [path]]            Display local directory listing
+lmkdir path                        Create local directory
+ln [-s] oldpath newpath            Link remote file (-s for symlink)
+lpwd                               Print local working directory
+ls [-1afhlnrSt] [path]             Display remote directory listing
+lumask umask                       Set local umask to 'umask'
+mkdir path                         Create remote directory
+progress                           Toggle display of progress meter
+put [-afPpRr] local [remote]       Upload file
+pwd                                Display remote working directory
+quit                               Quit sftp
+rename oldpath newpath             Rename remote file
+rm path                            Delete remote file
+rmdir path                         Remove remote directory
+symlink oldpath newpath            Symlink remote file
+version                            Show SFTP version
+!command                           Execute 'command' in local shell
+!                                  Escape to local shell
+?                                  Synonym for help
+sftp> lls
+abc.txt  ceccs17d03.25.02.19.txt  c.txt      Downloads	       name.txt    Public				Templates   xyz.txt
+a.txt	 ceccs17d37.07.02.19.txt  Desktop    examples.desktop  nirmal.txt  result.txt				typescript
+b.txt	 cs17d13.11.03.19.txt	  Documents  Music	       Pictures    studentlist-ceccs17d03.11.02.19.txt	Videos
+sftp> mkdir test
+sftp> cd tst[6@sftp> [12G[K[K[K[K[Ksd test[K[K[K[K[K[Kcd test
+sftp> ls
+sftp> 1[K!
+]0;s4d1@ceclab2-H110M-S2: ~[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~[00m$ exit
+exit
+sftp> exit
+]0;s4d1@ceclab2-H110M-S2: ~[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Monday 11 March 2019 11:37:56 PM IST
