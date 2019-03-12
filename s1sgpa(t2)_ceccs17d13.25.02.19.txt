@@ -1,6 +1,7 @@
 Script started on 2019-03-12 20:58:42+0530
 ]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ pdftotext -nopgbrk result.pdf1.pdf[C[C[C[C
-]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ [K]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ grep --no-group-separator -A3 'CHN17CS' result.txt | tr '\n' ' ' | sed 's/\ CHN/\nCHN/g' > result_one_per_line.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1@1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ 
+[K]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ grep --no-group-separator -A3 'CHN17CS' result.txt | tr '\n' ' ' | sed 's/\ CHN/\nCHN/g' > result_one_per_line.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1@1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
 ]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ cat result.txt
 CHN17CS001  MA101(A), PH100(B+), BE100(B), BE10105(B+), BE103(B+), EE100(C), PH110(A), EE110(B+), CS110(A)
 CHN17CS002  MA101(A), PH100(B+), BE100(B), BE10105(B+), BE103(A), EE100(B), PH110(B+), EE110(B+), CS110(B)
@@ -122,10 +123,15 @@ CHN17CS117  MA101(B+), PH100(B), BE100(B), BE10105(B+), BE103(A), EE100(C), PH11
 CHN17CS118  MA101(B), PH100(A), BE100(A), BE10105(C), BE103(B+), EE100(B+), PH110(O), EE110(O), CS110(O)
 CHN17CS119  MA101(F), PH100(C), BE100(F), BE10105(B), BE103(B), EE100(C), PH110(A+), EE110(B+), CS110(O)
 CHN17CS120  MA101(F), PH100(F), BE100(F), BE10105(F), BE103(B+), EE100(C), PH110(A), EE110(B+), CS110(B+) ]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ 
-]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ [K]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ sed -i 's/(O)/ 10  /g' [K]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ sed -i 's/(O)/ 10  /g' result.txt
-]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ [K]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ [K]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ sed -i 's/(O)/ 10  /g' result.txt[1P[1P[1@9[1P[1@A[1@+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ 
+[K]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ sed -i 's/(O)/ 10  /g' 
+[K]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ sed -i 's/(O)/ 10  /g' result.txt
+]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ 
+[K]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ 
+[K]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ sed -i 's/(O)/ 10  /g' result.txt[1P[1P[1@9[1P[1@A[1@+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
 ]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ sed -i 's/(A+)/ 9  /g' result.txt[1P[1@8[1@.[1@5[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1[K
-]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ sed -i 's/(A)/ 8.5  /g' result.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K1[Ksed -i 's/(A)/ 8.5  /g' result.txt[1P[1P[1P[1@B[1@+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ sed -i 's/(A)/ 8.5  /g' result.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K1[Ksed -i 's/(A)/ 8.5  /g' result.txt[1P[1P[1P[1@B[1@+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
 ]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ sed -i 's/(B+)/ 8  /g' result.txt[C[C[1P[1@7[1@\[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
 ]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ sed -i 's/(B)/ 7  /g' result.txt[1P[1@6[1P[1@C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
 ]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ sed -i 's/(C)/  6  /g' result.txt[1P[1@5[1P[1@P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
@@ -252,7 +258,8 @@ CHN17CS116  MA101  0  , PH100 8.5  , BE100 7  , BE10105 8.5  , BE103 9  , EE100 
 CHN17CS117  MA101 8  , PH100 7  , BE100 7  , BE10105 8  , BE103 8.5  , EE100  6  , PH110 10  , EE110 9  , CS110 10  
 CHN17CS118  MA101 7  , PH100 8.5  , BE100 8.5  , BE10105  6  , BE103 8  , EE100 8  , PH110 10  , EE110 10  , CS110 10  
 CHN17CS119  MA101  0  , PH100  6  , BE100  0  , BE10105 7  , BE103 7  , EE100  6  , PH110 9  , EE110 8  , CS110 10  
-CHN17CS120  MA101  0  , PH100  0  , BE100  0  , BE10105  0  , BE103 8  , EE100  6  , PH110 8.5  , EE110 8  , CS110 8   ]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ [K]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ awk '{s=$3*4+$6*4+$9*4+$12*3+$15*3+$18*3+$21*1+$24*1+#27[K[K[K$27*1}{r=s/24}{print r}' result.tt[Kxt >gpa.[K[K[K[Ksgpa.txt
+CHN17CS120  MA101  0  , PH100  0  , BE100  0  , BE10105  0  , BE103 8  , EE100  6  , PH110 8.5  , EE110 8  , CS110 8   ]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ 
+[K]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ awk '{s=$3*4+$6*4+$9*4+$12*3+$15*3+$18*3+$21*1+$24*1+#27[K[K[K$27*1}{r=s/24}{print r}' result.tt[Kxt >gpa.[K[K[K[Ksgpa.txt
 ]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ cat sgpa.txt
 7.70833
 7.8125
@@ -617,7 +624,8 @@ CHN17CS117
 CHN17CS118
 CHN17CS119
 CHN17CS120
-]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ paste -d[K[K[K[K[K[K[K[Kcat reg.txtawk '{print $1}' result.txt >reg.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Ppaste -d ' \t ' result.txt sgpa.txt[1P[1P[1P[1P[1P[1P[1@r[1@e[1@g[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ paste -d[K[K[K[K[K[K[K[Kcat reg.txtawk '{print $1}' result.txt >reg.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Ppaste -d ' \t ' result.txt sgpa.txt[1P[1P[1P[1P[1P[1P[1@r[1@e[1@g[C[C[C[C[C[C[C[C[C[C[C[C[C
 CHN17CS001 7.70833
 CHN17CS002 7.8125
 CHN17CS003 7.08333
@@ -799,7 +807,22 @@ CHN17CS120 2.77083
 7.6875
 8
 4.625
-]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ cat s1sgpa.txtawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt res.txt >s1sgpa.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[54Ppaste -d ' \t ' reg.txt sgpa.txt >res.txt[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pcat reg.txtawk '{print $1}' result.txt >reg.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Ppaste -d ' \t ' result.txt sgpa.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Pca[C[C[C[C[C[C[C[C[C[Cawk '{s=$3*4+$6*4+$9*4+$12*3+$15*3+$18*3+$21*1+$24*1+$27*1}{r=s/24}{print r}' result.txt >sgpa.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat result.txt[K[19@sed -i 's/(I)/  0  /g'[C[C[C[C[C[C[C[C[C[C[C[1@FE[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CP)/  5[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CC)/  6[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1PB)/ 7[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@+)/ 8[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P)/ 7[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@C)/  6[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CP)/  5[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CF)/  0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@E[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1PI[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Pcat[C[C[C[C[C[C[C[C[C[C[Cawk '{s=$3*4+$6*4+$9*4+$12*3+$15*3+$18*3+$21*1+$24*1+$27*1}{r=s/24}{print r}' result.txt >sgpa.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat sgpa.txt[K[23@paste -d ' \t ' result.tx[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk '{print $1}' result.txt >reg.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat reg.txt[Kpaste -d ' \t ' reg.txt sgpa.txt >res.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt res.txt >s1sgpa.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat s1sgpa.txt[K[Kcat s1sgpa.txtawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt res.txt >s1sgpa.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[54Ppaste -d ' \t ' reg.txt sgpa.txt >res.txt[K >res.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt res.txt >s1sgpa.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[54Ppaste -d ' \t ' reg.txt sgpa.txt >res.txt[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pcat reg.txtawk '{print $1}' result.txt >reg.txt[C[1P[1@3[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1@s[1@4[1@d[C[C[C[C[C[C[C[C[C1.txt[C[C[C[C
+]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ cat s1sgpa.txtawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt res.txt >s1sgpa.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[54Ppaste -d ' \t ' reg.txt sgpa.txt >res.txt[K
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pcat reg.txtawk '{print $1}' result.txt >reg.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Ppaste -d ' \t ' result.txt sgpa.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Pca[C[C[C[C[C[C[C[C[C[Cawk '{s=$3*4+$6*4+$9*4+$12*3+$15*3+$18*3+$21*1+$24*1+$27*1}{r=s/24}{print r}' result.txt >sgpa.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat result.txt[K[19@sed -i 's/(I)/  0  /g'[C[C[C[C[C[C[C[C[C[C[C[1@FE[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CP)/  5[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CC)/  6[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1PB)/ 7[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@+)/ 8[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P)/ 7[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@C)/  6[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CP)/  5[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CF)/  0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@E[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1PI[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Pcat[C[C[C[C[C[C[C[C[C[C[Cawk '{s=$3*4+$6*4+$9*4+$12*3+$15*3+$18*3+$21*1+$24*1+$27*1}{r=s/24}{print r}' result.txt >sgpa.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat sgpa.txt[K[23@paste -d ' \t ' result.tx[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk '{print $1}' result.txt >reg.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat reg.txt[Kpaste -d ' \t ' reg.txt sgpa.txt >res.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt res.txt >s1sgpa.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat s1sgpa.txt[K[Kcat s1sgpa.txtawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt res.txt >s1sgpa.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[54Ppaste -d ' \t ' reg.txt sgpa.txt >res.txt[K >res.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt res.txt >s1sgpa.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[54Ppaste -d ' \t ' reg.txt sgpa.txt >res.txt[K
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pcat reg.txtawk '{print $1}' result.txt >reg.txt[C[1P[1@3[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1@s[1@4[1@d[C[C[C[C[C[C[C[C[C1.txt[C[C[C[C
 ]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ cat reg1.txt
 CHN17CS004
 CHN17CS006
@@ -863,7 +886,9 @@ LCHN17CS122
 LCHN17CS124
 LCHN17CS121
 LCHN17CS123
-]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ cat reg1.txtawk '{print $3}' s4d.txt >reg1.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Pcat s1sgpa.txtawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt res.txt >s1sgpa.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[54Ppaste -d ' \t ' reg.txt sgpa.txt >res.txt[K >res.txt[1@1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.txt[1P.txt[1P.txtf.txti.txtn.txta.txt[1P.txt[1P.txt[1P.txt[1P.txts.txt1.txtf.txti.txtb.txt[1P.txtn.txta.txtl.txt[1@s[1P[C[C[1@s[1@1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ cat reg1.txtawk '{print $3}' s4d.txt >reg1.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Pcat s1sgpa.txtawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt res.txt >s1sgpa.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[54Ppaste -d ' \t ' reg.txt sgpa.txt >res.txt[K >res.txt[1@1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.txt[1P.txt[1P.txtf.txti.txtn.txta.txt[1P.txt[1P.txt[1P.txt[1P.txts.txt1.txtf.txti.txtb.txt[1P.txtn.txta.txtl.txt[1@s[1P[C[C[1@s[1@1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
 ]0;ashish@asus: ~[01;32mashish@asus[00m:[01;34m~[00m$ cat s1final.txt
 CHN17CS004 7.27083
 CHN17CS006 8.58333
