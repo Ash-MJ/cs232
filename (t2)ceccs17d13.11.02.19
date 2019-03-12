@@ -127,7 +127,8 @@ grep: .pdf: No such file or directory
 [01;31m[KCHN17CS[m[K118   MA101(B), PH100(A), BE100(A), BE10105(C), BE103(B+), EE100(B+), PH110(O), EE110(O),
 [01;31m[KCHN17CS[m[K119   MA101(F), PH100(C), BE100(F), BE10105(B), BE103(B), EE100(C), PH110(A+), EE110(B+),
 [01;31m[KCHN17CS[m[K120   MA101(F), PH100(F), BE100(F), BE10105(F), BE103(B+), EE100(C), PH110(A), EE110(B+),
-]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ [K]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ sed [K -i 's/o[K)[KO/10/g' result.txt
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ 
+[K]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ sed [K -i 's/o[K)[KO/10/g' result.txt
 ]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ sed -i 's/O/10/g' result.txt[C[1P[1@([1@A[1@+[1@)[C[C[C[1P[1P[1@9[C[C[C[C[C[C[C[C[C[C[C[C[C[C
 ]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ sed -i 's/(A+)/9/g' result.txt[1P[C[C[C[1P[1@8[1@.[1@5[C[C[C[C[C[C[C[C[C[C[C[C[C[C
 ]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ sed -i 's/(A)/8.5/g' result.txt[1P[1@b[1@+[1P[1@B[C[C[C[C[C[C[C[C[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C
@@ -1236,8 +1237,11 @@ CHN17AE028   MA1010, CY1005, BE1107, BE101047, BE1037, ME1005, CY1108.5, ME110(1
 16/02/2018                                                                Controller of Examinations
 ]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ cat result.txt[15@sed -i 's/(P)/0/g'[C[C[C[C[C[C[C[C[C[C[CF[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@a[1P[1@A[1P[1@7[C[C[C[1P[1@([1@)[1@\[1P[1P[1P[C[1P
 sed: -e expression #1, char 0: no previous regular expression
-]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ sed -i 's//()/g' result.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pcat[C[C[C[C[C[C[C[C[C[C[C[15@sed -i 's/(P)/0/g'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pcat[C[C[C[C[C[C[C[C[C[C[C[13@sed -i 's//()/g'[C[C[C[C[C[C[C[C[C[C[C[1@1[1@0[C[C[C[1P[1@([1@a[1@)[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P result.txt[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[Kcat result.txt[15@sed -i 's/(P)/0/g'[C[C[C[C[C[C[C[C[C[C[CF[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@1[1@0[C[C[C[1P[1@([1@)[1@e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ sed -i 's/(10)/(e)/g' result.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcat result.txt
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ sed -i 's//()/g' result.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pcat[C[C[C[C[C[C[C[C[C[C[C[15@sed -i 's/(P)/0/g'[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pcat[C[C[C[C[C[C[C[C[C[C[C[13@sed -i 's//()/g'[C[C[C[C[C[C[C[C[C[C[C[1@1[1@0[C[C[C[1P[1@([1@a[1@)[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P result.txt[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[Kcat result.txt[15@sed -i 's/(P)/0/g'[C[C[C[C[C[C[C[C[C[C[CF[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@1[1@0[C[C[C[1P[1@([1@)[1@e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ sed -i 's/(10)/(e)/g' result.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcat result.txt
                       APJ ABDUL KALAM TECHN10L10GICAL UNIVERSITY
                             Thiruvananthapuram, Kerala, INDIA
 
