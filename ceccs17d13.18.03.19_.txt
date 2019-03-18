@@ -1,0 +1,510 @@
+Script started on Monday 18 March 2019 11:33:11 AM IST
+declare -x ALL_PROXY="socks://192.168.0.2:3128/"
+declare -x CLUTTER_IM_MODULE="xim"
+declare -x COMPIZ_CONFIG_PROFILE="ubuntu"
+declare -x DBUS_SESSION_BUS_ADDRESS="unix:abstract=/tmp/dbus-lLoSdukPuk"
+declare -x DEFAULTS_PATH="/usr/share/gconf/ubuntu.default.path"
+declare -x DESKTOP_SESSION="ubuntu"
+declare -x DISPLAY=":1"
+declare -x GDMSESSION="ubuntu"
+declare -x GDM_LANG="en_US"
+declare -x GNOME_DESKTOP_SESSION_ID="this-is-deprecated"
+declare -x GNOME_KEYRING_CONTROL=""
+declare -x GNOME_KEYRING_PID=""
+declare -x GPG_AGENT_INFO="/home/cec/.gnupg/S.gpg-agent:0:1"
+declare -x GTK2_MODULES="overlay-scrollbar"
+declare -x GTK_IM_MODULE="ibus"
+declare -x GTK_MODULES="gail:atk-bridge:unity-gtk-module"
+declare -x HOME="/home/cec"
+declare -x IM_CONFIG_PHASE="1"
+declare -x INSTANCE=""
+declare -x JOB="dbus"
+declare -x LANG="en_IN"
+declare -x LANGUAGE="en_IN:en"
+declare -x LESSCLOSE="/usr/bin/lesspipe %s %s"
+declare -x LESSOPEN="| /usr/bin/lesspipe %s"
+declare -x LOGNAME="cec"
+declare -x LS_COLORS="rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:"
+declare -x MANDATORY_PATH="/usr/share/gconf/ubuntu.mandatory.path"
+declare -x NO_PROXY="localhost,127.0.0.0/8,::1"
+declare -x OLDPWD
+declare -x PATH="/home/cec/bin:/home/cec/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/ns-allinone-2.35/xgraph-12.2/:/opt/ns-allinone-2.35/bin/:/opt/ns/-allinone-2.35/tcl8.5.10/unix/::/opt/ns-allinone-2.35/ns-2.35/:/opt/ns-allinone-2.35/nam-1.15/"
+declare -x PWD="/home/cec"
+declare -x QT4_IM_MODULE="xim"
+declare -x QT_ACCESSIBILITY="1"
+declare -x QT_IM_MODULE="ibus"
+declare -x QT_LINUX_ACCESSIBILITY_ALWAYS_ON="1"
+declare -x QT_QPA_PLATFORMTHEME="appmenu-qt5"
+declare -x SESSION="ubuntu"
+declare -x SESSIONTYPE="gnome-session"
+declare -x SESSION_MANAGER="local/cec-H110M-S2:@/tmp/.ICE-unix/6422,unix/cec-H110M-S2:/tmp/.ICE-unix/6422"
+declare -x SHELL="/bin/bash"
+declare -x SHLVL="2"
+declare -x SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"
+declare -x TCL_LIBRARY=":/opt/ns-allinone-2.35/tcl8.5.10/library/:/usr/lib/"
+declare -x TERM="xterm-256color"
+declare -x UPSTART_SESSION="unix:abstract=/com/ubuntu/upstart-session/1000/6199"
+declare -x USER="cec"
+declare -x VTE_VERSION="4205"
+declare -x WINDOWID="54526335"
+declare -x XAUTHORITY="/home/cec/.Xauthority"
+declare -x XDG_CONFIG_DIRS="/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg"
+declare -x XDG_CURRENT_DESKTOP="Unity"
+declare -x XDG_DATA_DIRS="/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop"
+declare -x XDG_GREETER_DATA_DIR="/var/lib/lightdm-data/cec"
+declare -x XDG_MENU_PREFIX="gnome-"
+declare -x XDG_RUNTIME_DIR="/run/user/1000"
+declare -x XDG_SEAT="seat0"
+declare -x XDG_SEAT_PATH="/org/freedesktop/DisplayManager/Seat0"
+declare -x XDG_SESSION_DESKTOP="ubuntu"
+declare -x XDG_SESSION_ID="c4"
+declare -x XDG_SESSION_PATH="/org/freedesktop/DisplayManager/Session1"
+declare -x XDG_SESSION_TYPE="x11"
+declare -x XDG_VTNR="8"
+declare -x XMODIFIERS="@im=ibus"
+declare -x all_proxy="socks://192.168.0.2:3128/"
+declare -x ftp_proxy="ftp://192.168.0.2:3128/"
+declare -x http_proxy="http://192.168.0.2:3128/"
+declare -x https_proxy="https://192.168.0.2:3128/"
+declare -x no_proxy="localhost,127.0.0.0/8,::1"
+declare -x socks_proxy="socks://192.168.0.2:3128/"
+bash: /opt/ns-allinone-2.35/tk8.5.10/unix/: No such file or directory
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo ifconfig
+[sudo] password for cec: 
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:67:57  
+          inet addr:192.168.0.246  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::9843:8dc8:c357:a63e/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:10297386 errors:0 dropped:7639 overruns:0 frame:0
+          TX packets:18273 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3554293265 (3.5 GB)  TX bytes:2560080 (2.5 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:51182 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:51182 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3919854 (3.9 MB)  TX bytes:3919854 (3.9 MB)
+
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo ifconfig eth)[K0 192.168[1P 192.168[1P 192.168[1P 192.168[1P 192.168e 192.168n 192.168p 192.1681 192.168s 192.1680 192.168[C[C[C[C[C[C[C[C.0.97 netmask 255.255.255.0
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo ifconfig
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:67:57  
+          inet addr:192.168.0.97  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::9843:8dc8:c357:a63e/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:10297549 errors:0 dropped:7639 overruns:0 frame:0
+          TX packets:18378 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3554312553 (3.5 GB)  TX bytes:2567176 (2.5 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:52685 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:52685 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:4034006 (4.0 MB)  TX bytes:4034006 (4.0 MB)
+
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ ifcon[K[K[K[K[Ksud[K[K[Ksudo ifconfig enp10[Ks0 [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kping 192.168.0.8[K90
+PING 192.168.0.90 (192.168.0.90) 56(84) bytes of data.
+64 bytes from 192.168.0.90: icmp_seq=1 ttl=64 time=0.690 ms
+64 bytes from 192.168.0.90: icmp_seq=2 ttl=64 time=0.565 ms
+64 bytes from 192.168.0.90: icmp_seq=3 ttl=64 time=0.568 ms
+64 bytes from 192.168.0.90: icmp_seq=4 ttl=64 time=0.569 ms
+64 bytes from 192.168.0.90: icmp_seq=5 ttl=64 time=0.493 ms
+64 bytes from 192.168.0.90: icmp_seq=6 ttl=64 time=0.477 ms
+64 bytes from 192.168.0.90: icmp_seq=7 ttl=64 time=0.569 ms
+64 bytes from 192.168.0.90: icmp_seq=8 ttl=64 time=0.572 ms
+64 bytes from 192.168.0.90: icmp_seq=9 ttl=64 time=0.566 ms
+64 bytes from 192.168.0.90: icmp_seq=10 ttl=64 time=0.565 ms
+64 bytes from 192.168.0.90: icmp_seq=11 ttl=64 time=0.570 ms
+64 bytes from 192.168.0.90: icmp_seq=12 ttl=64 time=0.582 ms
+64 bytes from 192.168.0.90: icmp_seq=13 ttl=64 time=0.588 ms
+64 bytes from 192.168.0.90: icmp_seq=14 ttl=64 time=0.569 ms
+64 bytes from 192.168.0.90: icmp_seq=15 ttl=64 time=0.279 ms
+64 bytes from 192.168.0.90: icmp_seq=16 ttl=64 time=0.381 ms
+64 bytes from 192.168.0.90: icmp_seq=17 ttl=64 time=0.305 ms
+64 bytes from 192.168.0.90: icmp_seq=18 ttl=64 time=0.617 ms
+64 bytes from 192.168.0.90: icmp_seq=19 ttl=64 time=0.392 ms
+64 bytes from 192.168.0.90: icmp_seq=20 ttl=64 time=0.579 ms
+64 bytes from 192.168.0.90: icmp_seq=21 ttl=64 time=0.388 ms
+64 bytes from 192.168.0.90: icmp_seq=22 ttl=64 time=0.568 ms
+64 bytes from 192.168.0.90: icmp_seq=23 ttl=64 time=0.381 ms
+64 bytes from 192.168.0.90: icmp_seq=24 ttl=64 time=0.391 ms
+64 bytes from 192.168.0.90: icmp_seq=25 ttl=64 time=0.389 ms
+64 bytes from 192.168.0.90: icmp_seq=26 ttl=64 time=0.389 ms
+64 bytes from 192.168.0.90: icmp_seq=27 ttl=64 time=0.640 ms
+64 bytes from 192.168.0.90: icmp_seq=28 ttl=64 time=0.598 ms
+64 bytes from 192.168.0.90: icmp_seq=29 ttl=64 time=0.616 ms
+64 bytes from 192.168.0.90: icmp_seq=30 ttl=64 time=0.385 ms
+64 bytes from 192.168.0.90: icmp_seq=31 ttl=64 time=0.254 ms
+64 bytes from 192.168.0.90: icmp_seq=32 ttl=64 time=0.381 ms
+64 bytes from 192.168.0.90: icmp_seq=33 ttl=64 time=0.274 ms
+64 bytes from 192.168.0.90: icmp_seq=34 ttl=64 time=0.278 ms
+64 bytes from 192.168.0.90: icmp_seq=35 ttl=64 time=0.389 ms
+64 bytes from 192.168.0.90: icmp_seq=36 ttl=64 time=0.263 ms
+64 bytes from 192.168.0.90: icmp_seq=37 ttl=64 time=0.366 ms
+64 bytes from 192.168.0.90: icmp_seq=38 ttl=64 time=0.395 ms
+64 bytes from 192.168.0.90: icmp_seq=39 ttl=64 time=0.401 ms
+64 bytes from 192.168.0.90: icmp_seq=40 ttl=64 time=0.399 ms
+64 bytes from 192.168.0.90: icmp_seq=41 ttl=64 time=0.279 ms
+64 bytes from 192.168.0.90: icmp_seq=42 ttl=64 time=0.391 ms
+64 bytes from 192.168.0.90: icmp_seq=43 ttl=64 time=0.375 ms
+64 bytes from 192.168.0.90: icmp_seq=44 ttl=64 time=0.377 ms
+64 bytes from 192.168.0.90: icmp_seq=45 ttl=64 time=0.274 ms
+64 bytes from 192.168.0.90: icmp_seq=46 ttl=64 time=0.401 ms
+64 bytes from 192.168.0.90: icmp_seq=47 ttl=64 time=0.398 ms
+64 bytes from 192.168.0.90: icmp_seq=48 ttl=64 time=0.389 ms
+64 bytes from 192.168.0.90: icmp_seq=49 ttl=64 time=0.627 ms
+64 bytes from 192.168.0.90: icmp_seq=50 ttl=64 time=0.379 ms
+64 bytes from 192.168.0.90: icmp_seq=51 ttl=64 time=0.402 ms
+64 bytes from 192.168.0.90: icmp_seq=52 ttl=64 time=0.383 ms
+64 bytes from 192.168.0.90: icmp_seq=53 ttl=64 time=0.615 ms
+64 bytes from 192.168.0.90: icmp_seq=54 ttl=64 time=0.383 ms
+64 bytes from 192.168.0.90: icmp_seq=55 ttl=64 time=0.264 ms
+64 bytes from 192.168.0.90: icmp_seq=56 ttl=64 time=0.283 ms
+64 bytes from 192.168.0.90: icmp_seq=57 ttl=64 time=0.616 ms
+64 bytes from 192.168.0.90: icmp_seq=58 ttl=64 time=0.278 ms
+64 bytes from 192.168.0.90: icmp_seq=59 ttl=64 time=0.373 ms
+64 bytes from 192.168.0.90: icmp_seq=60 ttl=64 time=0.300 ms
+64 bytes from 192.168.0.90: icmp_seq=61 ttl=64 time=0.581 ms
+64 bytes from 192.168.0.90: icmp_seq=62 ttl=64 time=0.373 ms
+64 bytes from 192.168.0.90: icmp_seq=63 ttl=64 time=0.384 ms
+64 bytes from 192.168.0.90: icmp_seq=64 ttl=64 time=0.617 ms
+64 bytes from 192.168.0.90: icmp_seq=65 ttl=64 time=0.623 ms
+64 bytes from 192.168.0.90: icmp_seq=66 ttl=64 time=0.391 ms
+64 bytes from 192.168.0.90: icmp_seq=67 ttl=64 time=0.619 ms
+64 bytes from 192.168.0.90: icmp_seq=68 ttl=64 time=0.384 ms
+64 bytes from 192.168.0.90: icmp_seq=69 ttl=64 time=0.290 ms
+64 bytes from 192.168.0.90: icmp_seq=70 ttl=64 time=0.570 ms
+64 bytes from 192.168.0.90: icmp_seq=71 ttl=64 time=0.387 ms
+64 bytes from 192.168.0.90: icmp_seq=72 ttl=64 time=0.396 ms
+64 bytes from 192.168.0.90: icmp_seq=73 ttl=64 time=0.580 ms
+^[[A^[[B^Z
+[1]+  Stopped                 sudo ping 192.168.0.90
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sud f[Kifdoq[Kwn [1@0[C[1P[1@o[C[C[C[C[C[C[C[C [Kenp1s0
+Unknown interface enp1s0
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ ifconfig
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:67:57  
+          inet addr:192.168.0.97  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::9843:8dc8:c357:a63e/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:10297945 errors:0 dropped:7639 overruns:0 frame:0
+          TX packets:18723 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3554361398 (3.5 GB)  TX bytes:2589727 (2.5 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:56369 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:56369 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:4313398 (4.3 MB)  TX bytes:4313398 (4.3 MB)
+
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ ifconfigsudo ifdown enp1s0
+Unknown interface enp1s0
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ man ip
+[?1049h[?1h=IP(8)                                                                                   Linux                                                                                   IP(8)[m
+[m
+[1mNAME[0m[m
+       ip - show / manipulate routing, devices, policy routing and tunnels[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mip[0m [ [4mOPTIONS[24m ] [4mOBJECT[24m { [4mCOMMAND[24m | [1mhelp[0m }[m
+[m
+       [1mip[0m [ [1m-force[0m ] [1m-batch[0m [4mfilename[24m[m
+[m
+       [4mOBJECT[24m := { [1mlink[0m | [1maddress[0m | [1maddrlabel[0m | [1mroute[0m | [1mrule[0m | [1mneigh[0m | [1mntable[0m | [1mtunnel[0m | [1mtuntap[0m | [1mmaddress[0m | [1mmroute[0m | [1mmrule[0m | [1mmonitor[0m | [1mxfrm[0m | [1mnetns[0m | [1ml2tp[0m | [1mtcp_metrics[0m }[m
+[m
+       [4mOPTIONS[24m := { [1m-V[0m[[4mersion[24m] | [1m-h[0m[[4muman-readable[24m] | [1m-s[0m[[4mtatistics[24m] | [1m-r[0m[[4mesolve[24m] | [1m-f[0m[[4mamily[24m] { [1minet[0m | [1minet6[0m | [1mipx[0m | [1mdnet[0m | [1mlink[0m } | [1m-o[0m[[4mneline[24m] | [1m-n[0m[[4metns[24m] name | [1m-a[0m[[4mll[24m] | [1m-c[0m[[4molor[24m] }[m
+[m
+[1mOPTIONS[0m[m
+       [1m-V[0m, [1m-Version[0m[m
+              Print the version of the [1mip[0m utility and exit.[m
+[m
+       [1m-h[0m, [1m-human[0m, [1m-human-readable[0m[m
+              output statistics with human readable values followed by suffix.[m
+[m
+       [1m-b[0m, [1m-batch[0m <FILENAME>[m
+              Read commands from provided file or standard input and invoke them.  First failure will cause termination of ip.[m
+[m
+       [1m-force[0m Don't terminate ip on errors in batch mode.  If there were any errors during execution of the commands, the application return code will be non zero.[m
+[m
+       [1m-s[0m, [1m-stats[0m, [1m-statistics[0m[m
+              Output more information. If the option appears twice or more, the amount of information increases.  As a rule, the information is statistics or some time values.[m
+[m
+       [1m-d[0m, [1m-details[0m[m
+              Output more detailed information.[m
+[m
+       [1m-l[0m, [1m-loops[0m <COUNT>[m
+              Specify maximum number of loops the 'ip address flush' logic will attempt before giving up. The default is 10.  Zero (0) means loop until all addresses are removed.[m
+[m
+       [1m-f[0m, [1m-family[0m <FAMILY>[m
+              Specifies the protocol family to use. The protocol family identifier can be one of [1minet[0m, [1minet6[0m, [1mbridge[0m, [1mipx[0m, [1mdnet[0m, [1mmpls[0m or [1mlink[0m.  If this option is not present, the[m
+              protocol family is guessed from other arguments. If the rest of the command line does not give enough information to guess the family, [1mip[0m falls back to the default[m
+              one, usually [1minet[0m or [1many[0m.  [1mlink[0m is a special family identifier meaning that no networking protocol is involved.[m
+[m
+       [1m-4[0m     shortcut for [1m-family[0m [1minet[0m.[m
+[m
+       [1m-6[0m     shortcut for [1m-family[0m [1minet6[0m.[m
+[m
+       [1m-B[0m     shortcut for [1m-family[0m [1mbridge[0m.[m
+[m
+       [1m-D[0m     shortcut for [1m-family[0m [1mdecnet[0m.[m
+[m
+       [1m-I[0m     shortcut for [1m-family[0m [1mipx[0m.[m
+[m
+       [1m-M[0m     shortcut for [1m-family[0m [1mmpls[0m.[m
+[m
+       [1m-0[0m     shortcut for [1m-family[0m [1mlink[0m.[m
+[m
+       [1m-o[0m, [1m-oneline[0m[m
+              output each record on a single line, replacing line feeds with the [1m'\'[0m character. This is convenient when you want to count records with [1mwc[0m(1) or to [1mgrep[0m(1) the out‐[m
+[7m Manual page ip(8) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ man id[Kfdown
+[?1049h[?1h=ifup(8)                                                                                                                                                                       ifup(8)[m
+[m
+[1mNAME[0m[m
+       ifup - bring a network interface up[m
+[m
+       ifdown - take a network interface down[m
+[m
+       ifquery - parse interface configuration[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mifup[0m [[1m-nv[0m] [[1m--no-act[0m] [[1m--verbose[0m] [[1m-i[0m [4mFILE[24m|[1m--interfaces=[0m[4mFILE[24m] [[1m--allow[0m [4mCLASS[24m] [1m-a[0m|[4mIFACE[24m...[m
+       [1mifup[0m [1m-h[0m|[1m--help[0m[m
+       [1mifup[0m [1m-V[0m|[1m--version[0m[m
+[m
+       [1mifdown[0m [[1m-nv[0m] [[1m--no-act[0m] [[1m--verbose[0m] [[1m-i[0m [4mFILE[24m|[1m--interfaces=[0m[4mFILE[24m] [[1m--allow[0m [4mCLASS[24m] [1m-a[0m|[4mIFACE[24m...[m
+[m
+       [1mifquery[0m [[1m-nv[0m] [[1m--no-act[0m] [[1m--verbose[0m] [[1m-i[0m [4mFILE[24m|[1m--interfaces=[0m[4mFILE[24m] [[1m--allow[0m [4mCLASS[24m] [1m-a[0m|[4mIFACE[24m...[m
+[m
+       [1mifquery[0m [1m-l[0m|[1m--list[0m [[1m-nv[0m] [[1m--no-act[0m] [[1m--verbose[0m] [[1m-i[0m [4mFILE[24m|[1m--interfaces=[0m[4mFILE[24m] [[1m--allow[0m [4mCLASS[24m] [1m-a[0m|[4mIFACE[24m...[m
+[m
+       [1mifquery[0m [1m--state[0m [[4mIFACE[24m...][m
+[m
+[1mDESCRIPTION[0m[m
+       The  [1mifup[0m  and [1mifdown[0m commands may be used to configure (or, respectively, deconfigure) network interfaces based on interface definitions in the file [4m/etc/network/interfaces[24m.[m
+       [1mifquery[0m command may be used to parse interfaces configuration.[m
+[m
+[1mOPTIONS[0m[m
+       A summary of options is included below.[m
+[m
+       [1m-a[0m, [1m--all[0m[m
+              If given to [1mifup[0m, affect all interfaces marked [1mauto[0m.  Interfaces are brought up in the order in which they  are  defined  in  [4m/etc/network/interfaces[24m.   Combined  with[m
+              [1m--allow[0m,  acts  on  all interfaces of a specified class instead.  If given to [1mifdown[0m, affect all defined interfaces.  Interfaces are brought down in the order in which[m
+              they are currently listed in the state file. Only interfaces defined in [4m/etc/network/interfaces[24m will be brought down.[m
+[m
+       [1m--force[0m[m
+              Force configuration or deconfiguration of the interface.[m
+[m
+       [1m--ignore-errors[0m[m
+              If any of the commands of scripts fails, continue.[m
+[m
+       [1m-h[0m, [1m--help[0m[m
+              Show summary of options.[m
+[m
+       [1m--allow=[0m[4mCLASS[24m[m
+              Only allow interfaces listed in an [4mallow-CLASS[24m line in [4m/etc/network/interfaces[24m to be acted upon.[m
+[m
+       [1m-i[0m [4mFILE[24m, [1m--interfaces=[0m[4mFILE[24m[m
+              Read interface definitions from [4mFILE[24m instead of from [4m/etc/network/interfaces[24m.[m
+[m
+       [1m-X[0m [4mPATTERN[24m, [1m--exclude=[0m[4mPATTERN[24m[m
+              Exclude interfaces from the list of interfaces to operate on by the [4mPATTERN[24m.  [4mPATTERN[24m uses a usual shell glob syntax. If shell wildcards are not used,  it  must  match[m
+              the exact interface name. This option may be specified multiple times resulting in more than one pattern being excluded.[m
+[m
+       [1m-o[0m [4mOPTION[24m[1m=[0m[4mVALUE[24m[m
+              Set [4mOPTION[24m to [4mVALUE[24m as though it were in [4m/etc/network/interfaces[24m.[m
+[m
+[7m Manual page ifdown(8) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ 
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ 
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ 
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ man ip
+[?1049h[?1h=IP(8)                                                                                   Linux                                                                                   IP(8)[m
+[m
+[1mNAME[0m[m
+       ip - show / manipulate routing, devices, policy routing and tunnels[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mip[0m [ [4mOPTIONS[24m ] [4mOBJECT[24m { [4mCOMMAND[24m | [1mhelp[0m }[m
+[m
+       [1mip[0m [ [1m-force[0m ] [1m-batch[0m [4mfilename[24m[m
+[m
+       [4mOBJECT[24m := { [1mlink[0m | [1maddress[0m | [1maddrlabel[0m | [1mroute[0m | [1mrule[0m | [1mneigh[0m | [1mntable[0m | [1mtunnel[0m | [1mtuntap[0m | [1mmaddress[0m | [1mmroute[0m | [1mmrule[0m | [1mmonitor[0m | [1mxfrm[0m | [1mnetns[0m | [1ml2tp[0m | [1mtcp_metrics[0m }[m
+[m
+       [4mOPTIONS[24m := { [1m-V[0m[[4mersion[24m] | [1m-h[0m[[4muman-readable[24m] | [1m-s[0m[[4mtatistics[24m] | [1m-r[0m[[4mesolve[24m] | [1m-f[0m[[4mamily[24m] { [1minet[0m | [1minet6[0m | [1mipx[0m | [1mdnet[0m | [1mlink[0m } | [1m-o[0m[[4mneline[24m] | [1m-n[0m[[4metns[24m] name | [1m-a[0m[[4mll[24m] | [1m-c[0m[[4molor[24m] }[m
+[m
+[1mOPTIONS[0m[m
+       [1m-V[0m, [1m-Version[0m[m
+              Print the version of the [1mip[0m utility and exit.[m
+[m
+       [1m-h[0m, [1m-human[0m, [1m-human-readable[0m[m
+              output statistics with human readable values followed by suffix.[m
+[m
+       [1m-b[0m, [1m-batch[0m <FILENAME>[m
+              Read commands from provided file or standard input and invoke them.  First failure will cause termination of ip.[m
+[m
+       [1m-force[0m Don't terminate ip on errors in batch mode.  If there were any errors during execution of the commands, the application return code will be non zero.[m
+[m
+       [1m-s[0m, [1m-stats[0m, [1m-statistics[0m[m
+              Output more information. If the option appears twice or more, the amount of information increases.  As a rule, the information is statistics or some time values.[m
+[m
+       [1m-d[0m, [1m-details[0m[m
+              Output more detailed information.[m
+[m
+       [1m-l[0m, [1m-loops[0m <COUNT>[m
+              Specify maximum number of loops the 'ip address flush' logic will attempt before giving up. The default is 10.  Zero (0) means loop until all addresses are removed.[m
+[m
+       [1m-f[0m, [1m-family[0m <FAMILY>[m
+              Specifies the protocol family to use. The protocol family identifier can be one of [1minet[0m, [1minet6[0m, [1mbridge[0m, [1mipx[0m, [1mdnet[0m, [1mmpls[0m or [1mlink[0m.  If this option is not present, the[m
+              protocol family is guessed from other arguments. If the rest of the command line does not give enough information to guess the family, [1mip[0m falls back to the default[m
+              one, usually [1minet[0m or [1many[0m.  [1mlink[0m is a special family identifier meaning that no networking protocol is involved.[m
+[m
+       [1m-4[0m     shortcut for [1m-family[0m [1minet[0m.[m
+[m
+       [1m-6[0m     shortcut for [1m-family[0m [1minet6[0m.[m
+[m
+       [1m-B[0m     shortcut for [1m-family[0m [1mbridge[0m.[m
+[m
+       [1m-D[0m     shortcut for [1m-family[0m [1mdecnet[0m.[m
+[m
+       [1m-I[0m     shortcut for [1m-family[0m [1mipx[0m.[m
+[m
+       [1m-M[0m     shortcut for [1m-family[0m [1mmpls[0m.[m
+[m
+       [1m-0[0m     shortcut for [1m-family[0m [1mlink[0m.[m
+[m
+       [1m-o[0m, [1m-oneline[0m[m
+              output each record on a single line, replacing line feeds with the [1m'\'[0m character. This is convenient when you want to count records with [1mwc[0m(1) or to [1mgrep[0m(1) the out‐[m
+[7m Manual page ip(8) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ man ifconfig
+[?1049h[?1h=IFCONFIG(8)                                                                   Linux Programmer's Manual                                                                   IFCONFIG(8)[m
+[m
+[1mNAME[0m[m
+       ifconfig - configure a network interface[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mifconfig[0m [1m[-v][0m [1m[-a][0m [1m[-s][0m [1m[interface][0m[m
+       [1mifconfig[0m [1m[-v][0m [1minterface[0m [1m[aftype][0m [1moptions[0m [1m|[0m [1maddress[0m [1m...[0m[m
+[m
+[1mDESCRIPTION[0m[m
+       [1mIfconfig[0m  is used to configure the kernel-resident network interfaces.  It is used at boot time to set up interfaces as necessary.  After that, it is usually only needed when[m
+       debugging or when system tuning is needed.[m
+[m
+       If no arguments are given, [1mifconfig[0m displays the status of the currently active interfaces.  If a single [1minterface[0m argument is given, it displays  the  status  of  the  given[m
+       interface only; if a single [1m-a[0m argument is given, it displays the status of all interfaces, even those that are down.  Otherwise, it configures an interface.[m
+[m
+[1mAddress[0m [1mFamilies[0m[m
+       If  the  first argument after the interface name is recognized as the name of a supported address family, that address family is used for decoding and displaying all protocol[m
+       addresses.  Currently supported address families include [1minet[0m (TCP/IP, default), [1minet6[0m (IPv6), [1max25[0m (AMPR Packet Radio), [1mddp[0m (Appletalk Phase 2), [1mipx[0m (Novell IPX) and  [1mnetrom[0m[m
+       (AMPR Packet radio).[m
+[m
+[1mOPTIONS[0m[m
+       [1m-a[0m     display all interfaces which are currently available, even if down[m
+[m
+       [1m-s[0m     display a short list (like netstat -i)[m
+[m
+       [1m-v[0m     be more verbose for some error conditions[m
+[m
+       [1minterface[0m[m
+              The  name  of the interface.  This is usually a driver name followed by a unit number, for example [1meth0[0m for the first Ethernet interface. If your kernel supports alias[m
+              interfaces, you can specify them with [1meth0:0[0m for the first alias of eth0. You can use them to assign a second address. To delete an alias interface use [1mifconfig[0m [1meth0:0[0m[m
+              [1mdown[0m.  Note: for every scope (i.e. same net with address/netmask combination) all aliases are deleted, if you delete the first (primary).[m
+[m
+       [1mup[0m     This flag causes the interface to be activated.  It is implicitly specified if an address is assigned to the interface.[m
+[m
+       [1mdown[0m   This flag causes the driver for this interface to be shut down.[m
+[m
+       [1m[-]arp[0m Enable or disable the use of the ARP protocol on this interface.[m
+[m
+       [1m[-]promisc[0m[m
+              Enable or disable the [1mpromiscuous[0m mode of the interface.  If selected, all packets on the network will be received by the interface.[m
+[m
+       [1m[-]allmulti[0m[m
+              Enable or disable [1mall-multicast[0m mode.  If selected, all multicast packets on the network will be received by the interface.[m
+[m
+       [1mmetric[0m [1mN[0m[m
+              This parameter sets the interface metric.[m
+[m
+       [1mmtu[0m [1mN[0m  This parameter sets the Maximum Transfer Unit (MTU) of an interface.[m
+[m
+       [1mdstaddr[0m [1maddr[0m[m
+              Set the remote IP address for a point-to-point link (such as PPP).  This keyword is now obsolete; use the [1mpointopoint[0m keyword instead.[m
+[m
+       [1mnetmask[0m [1maddr[0m[m
+              Set  the  IP  network mask for this interface.  This value defaults to the usual class A, B or C network mask (as derived from the interface IP address), but it can be[m
+              set to any value.[m
+[7m Manual page ifconfig(8) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ ifdown[K[K[K[K[K[Ksudo ifdoewn[1Pwn[C[C enp1s0[C^Mp1s0
+Unknown interface enp1s0
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ man id[Kfconfig
+[?1049h[?1h=IFCONFIG(8)                                                                   Linux Programmer's Manual                                                                   IFCONFIG(8)[m
+[m
+[1mNAME[0m[m
+       ifconfig - configure a network interface[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mifconfig[0m [1m[-v][0m [1m[-a][0m [1m[-s][0m [1m[interface][0m[m
+       [1mifconfig[0m [1m[-v][0m [1minterface[0m [1m[aftype][0m [1moptions[0m [1m|[0m [1maddress[0m [1m...[0m[m
+[m
+[1mDESCRIPTION[0m[m
+       [1mIfconfig[0m  is used to configure the kernel-resident network interfaces.  It is used at boot time to set up interfaces as necessary.  After that, it is usually only needed when[m
+       debugging or when system tuning is needed.[m
+[m
+       If no arguments are given, [1mifconfig[0m displays the status of the currently active interfaces.  If a single [1minterface[0m argument is given, it displays  the  status  of  the  given[m
+       interface only; if a single [1m-a[0m argument is given, it displays the status of all interfaces, even those that are down.  Otherwise, it configures an interface.[m
+[m
+[1mAddress[0m [1mFamilies[0m[m
+       If  the  first argument after the interface name is recognized as the name of a supported address family, that address family is used for decoding and displaying all protocol[m
+       addresses.  Currently supported address families include [1minet[0m (TCP/IP, default), [1minet6[0m (IPv6), [1max25[0m (AMPR Packet Radio), [1mddp[0m (Appletalk Phase 2), [1mipx[0m (Novell IPX) and  [1mnetrom[0m[m
+       (AMPR Packet radio).[m
+[m
+[1mOPTIONS[0m[m
+       [1m-a[0m     display all interfaces which are currently available, even if down[m
+[m
+       [1m-s[0m     display a short list (like netstat -i)[m
+[m
+       [1m-v[0m     be more verbose for some error conditions[m
+[m
+       [1minterface[0m[m
+              The  name  of the interface.  This is usually a driver name followed by a unit number, for example [1meth0[0m for the first Ethernet interface. If your kernel supports alias[m
+              interfaces, you can specify them with [1meth0:0[0m for the first alias of eth0. You can use them to assign a second address. To delete an alias interface use [1mifconfig[0m [1meth0:0[0m[m
+              [1mdown[0m.  Note: for every scope (i.e. same net with address/netmask combination) all aliases are deleted, if you delete the first (primary).[m
+[m
+       [1mup[0m     This flag causes the interface to be activated.  It is implicitly specified if an address is assigned to the interface.[m
+[m
+       [1mdown[0m   This flag causes the driver for this interface to be shut down.[m
+[m
+       [1m[-]arp[0m Enable or disable the use of the ARP protocol on this interface.[m
+[m
+       [1m[-]promisc[0m[m
+              Enable or disable the [1mpromiscuous[0m mode of the interface.  If selected, all packets on the network will be received by the interface.[m
+[m
+       [1m[-]allmulti[0m[m
+              Enable or disable [1mall-multicast[0m mode.  If selected, all multicast packets on the network will be received by the interface.[m
+[m
+       [1mmetric[0m [1mN[0m[m
+              This parameter sets the interface metric.[m
+[m
+       [1mmtu[0m [1mN[0m  This parameter sets the Maximum Transfer Unit (MTU) of an interface.[m
+[m
+       [1mdstaddr[0m [1maddr[0m[m
+              Set the remote IP address for a point-to-point link (such as PPP).  This keyword is now obsolete; use the [1mpointopoint[0m keyword instead.[m
+[m
+       [1mnetmask[0m [1maddr[0m[m
+              Set  the  IP  network mask for this interface.  This value defaults to the usual class A, B or C network mask (as derived from the interface IP address), but it can be[m
+              set to any value.[m
+[7m Manual page ifconfig(8) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo ifconfig enp1s0 down
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ su[K[Kexit
+exit
+There are stopped jobs.
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ exit
+exit
+ping: sendmsg: Network is unreachable
+
+Script done on Monday 18 March 2019 11:55:06 AM IST
