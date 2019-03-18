@@ -210,7 +210,8 @@ lo        Link encap:Local Loopback
 ]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ ifconfigsudo ifdown enp1s0
 Unknown interface enp1s0
 ]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ man ip
-[?1049h[?1h=IP(8)                                                                                   Linux                                                                                   IP(8)[m
+[?1049h[?1h=
+IP(8)                                                                                   Linux                                                                                   IP(8)[m
 [m
 [1mNAME[0m[m
        ip - show / manipulate routing, devices, policy routing and tunnels[m
@@ -266,8 +267,10 @@ Unknown interface enp1s0
 [m
        [1m-o[0m, [1m-oneline[0m[m
               output each record on a single line, replacing line feeds with the [1m'\'[0m character. This is convenient when you want to count records with [1mwc[0m(1) or to [1mgrep[0m(1) the out‐[m
-[7m Manual page ip(8) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ man id[Kfdown
-[?1049h[?1h=ifup(8)                                                                                                                                                                       ifup(8)[m
+[7m Manual page ip(8) line 1 (press h for help or q to quit)[27m[K
+[K[?1l>[?1049l]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ man id[Kfdown
+[?1049h[?1h=
+ifup(8)                                                                                                                                                                       ifup(8)[m
 [m
 [1mNAME[0m[m
        ifup - bring a network interface up[m
@@ -323,11 +326,13 @@ Unknown interface enp1s0
        [1m-o[0m [4mOPTION[24m[1m=[0m[4mVALUE[24m[m
               Set [4mOPTION[24m to [4mVALUE[24m as though it were in [4m/etc/network/interfaces[24m.[m
 [m
-[7m Manual page ifdown(8) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ 
+[7m Manual page ifdown(8) line 1 (press h for help or q to quit)[27m[K
+[K[?1l>[?1049l]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ 
 ]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ 
 ]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ 
 ]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ man ip
-[?1049h[?1h=IP(8)                                                                                   Linux                                                                                   IP(8)[m
+[?1049h[?1h=
+IP(8)                                                                                   Linux                                                                                   IP(8)[m
 [m
 [1mNAME[0m[m
        ip - show / manipulate routing, devices, policy routing and tunnels[m
@@ -383,8 +388,10 @@ Unknown interface enp1s0
 [m
        [1m-o[0m, [1m-oneline[0m[m
               output each record on a single line, replacing line feeds with the [1m'\'[0m character. This is convenient when you want to count records with [1mwc[0m(1) or to [1mgrep[0m(1) the out‐[m
-[7m Manual page ip(8) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ man ifconfig
-[?1049h[?1h=IFCONFIG(8)                                                                   Linux Programmer's Manual                                                                   IFCONFIG(8)[m
+[7m Manual page ip(8) line 1 (press h for help or q to quit)[27m[K
+[K[?1l>[?1049l]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ man ifconfig
+[?1049h[?1h=
+IFCONFIG(8)                                                                   Linux Programmer's Manual                                                                   IFCONFIG(8)[m
 [m
 [1mNAME[0m[m
        ifconfig - configure a network interface[m
@@ -440,10 +447,13 @@ Unknown interface enp1s0
        [1mnetmask[0m [1maddr[0m[m
               Set  the  IP  network mask for this interface.  This value defaults to the usual class A, B or C network mask (as derived from the interface IP address), but it can be[m
               set to any value.[m
-[7m Manual page ifconfig(8) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ ifdown[K[K[K[K[K[Ksudo ifdoewn[1Pwn[C[C enp1s0[C^Mp1s0
-Unknown interface enp1s0
+[7m Manual page ifconfig(8) line 1 (press h for help or q to quit)[27m[K
+[K[?1l>[?1049l]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ ifdown[K[K[K[K[K[Ksudo ifdoewn[1Pwn[C[C enp1s0[C^Mp1s0
+Unknown interface en
+p1s0
 ]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ man id[Kfconfig
-[?1049h[?1h=IFCONFIG(8)                                                                   Linux Programmer's Manual                                                                   IFCONFIG(8)[m
+[?1049h[?1h=
+IFCONFIG(8)                                                                   Linux Programmer's Manual                                                                   IFCONFIG(8)[m
 [m
 [1mNAME[0m[m
        ifconfig - configure a network interface[m
@@ -499,7 +509,8 @@ Unknown interface enp1s0
        [1mnetmask[0m [1maddr[0m[m
               Set  the  IP  network mask for this interface.  This value defaults to the usual class A, B or C network mask (as derived from the interface IP address), but it can be[m
               set to any value.[m
-[7m Manual page ifconfig(8) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo ifconfig enp1s0 down
+[7m Manual page ifconfig(8) line 1 (press h for help or q to quit)[27m[K
+[K[?1l>[?1049l]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo ifconfig enp1s0 down
 ]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ su[K[Kexit
 exit
 There are stopped jobs.
