@@ -1,0 +1,142 @@
+cec@cec-H110M-S2:~$ sudo ifconfig
+[sudo] password for cec: 
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:67:57  
+          inet addr:192.168.0.246  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::9843:8dc8:c357:a63e/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:10297386 errors:0 dropped:7639 overruns:0 frame:0
+          TX packets:18273 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3554293265 (3.5 GB)  TX bytes:2560080 (2.5 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:51182 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:51182 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3919854 (3.9 MB)  TX bytes:3919854 (3.9 MB)
+
+cec@cec-H110M-S2:~$ sudo ifconfig enp1s0 192.168.0.97 netmask 255.255.255.0
+cec@cec-H110M-S2:~$ sudo ifconfig
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:67:57  
+          inet addr:192.168.0.97  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::9843:8dc8:c357:a63e/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:10297549 errors:0 dropped:7639 overruns:0 frame:0
+          TX packets:18378 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3554312553 (3.5 GB)  TX bytes:2567176 (2.5 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:52685 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:52685 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:4034006 (4.0 MB)  TX bytes:4034006 (4.0 MB)
+
+cec@cec-H110M-S2:~$ sudo ping 192.168.0.90
+PING 192.168.0.90 (192.168.0.90) 56(84) bytes of data.
+64 bytes from 192.168.0.90: icmp_seq=1 ttl=64 time=0.690 ms
+64 bytes from 192.168.0.90: icmp_seq=2 ttl=64 time=0.565 ms
+64 bytes from 192.168.0.90: icmp_seq=3 ttl=64 time=0.568 ms
+64 bytes from 192.168.0.90: icmp_seq=4 ttl=64 time=0.569 ms
+64 bytes from 192.168.0.90: icmp_seq=5 ttl=64 time=0.493 ms
+64 bytes from 192.168.0.90: icmp_seq=6 ttl=64 time=0.477 ms
+64 bytes from 192.168.0.90: icmp_seq=7 ttl=64 time=0.569 ms
+64 bytes from 192.168.0.90: icmp_seq=8 ttl=64 time=0.572 ms
+64 bytes from 192.168.0.90: icmp_seq=9 ttl=64 time=0.566 ms
+64 bytes from 192.168.0.90: icmp_seq=10 ttl=64 time=0.565 ms
+64 bytes from 192.168.0.90: icmp_seq=11 ttl=64 time=0.570 ms
+64 bytes from 192.168.0.90: icmp_seq=12 ttl=64 time=0.582 ms
+64 bytes from 192.168.0.90: icmp_seq=13 ttl=64 time=0.588 ms
+64 bytes from 192.168.0.90: icmp_seq=14 ttl=64 time=0.569 ms
+64 bytes from 192.168.0.90: icmp_seq=15 ttl=64 time=0.279 ms
+64 bytes from 192.168.0.90: icmp_seq=16 ttl=64 time=0.381 ms
+64 bytes from 192.168.0.90: icmp_seq=17 ttl=64 time=0.305 ms
+64 bytes from 192.168.0.90: icmp_seq=18 ttl=64 time=0.617 ms
+64 bytes from 192.168.0.90: icmp_seq=19 ttl=64 time=0.392 ms
+64 bytes from 192.168.0.90: icmp_seq=20 ttl=64 time=0.579 ms
+64 bytes from 192.168.0.90: icmp_seq=21 ttl=64 time=0.388 ms
+64 bytes from 192.168.0.90: icmp_seq=22 ttl=64 time=0.568 ms
+64 bytes from 192.168.0.90: icmp_seq=23 ttl=64 time=0.381 ms
+64 bytes from 192.168.0.90: icmp_seq=24 ttl=64 time=0.391 ms
+64 bytes from 192.168.0.90: icmp_seq=25 ttl=64 time=0.389 ms
+64 bytes from 192.168.0.90: icmp_seq=26 ttl=64 time=0.389 ms
+64 bytes from 192.168.0.90: icmp_seq=27 ttl=64 time=0.640 ms
+64 bytes from 192.168.0.90: icmp_seq=28 ttl=64 time=0.598 ms
+64 bytes from 192.168.0.90: icmp_seq=29 ttl=64 time=0.616 ms
+64 bytes from 192.168.0.90: icmp_seq=30 ttl=64 time=0.385 ms
+64 bytes from 192.168.0.90: icmp_seq=31 ttl=64 time=0.254 ms
+64 bytes from 192.168.0.90: icmp_seq=32 ttl=64 time=0.381 ms
+64 bytes from 192.168.0.90: icmp_seq=33 ttl=64 time=0.274 ms
+64 bytes from 192.168.0.90: icmp_seq=34 ttl=64 time=0.278 ms
+64 bytes from 192.168.0.90: icmp_seq=35 ttl=64 time=0.389 ms
+64 bytes from 192.168.0.90: icmp_seq=36 ttl=64 time=0.263 ms
+64 bytes from 192.168.0.90: icmp_seq=37 ttl=64 time=0.366 ms
+64 bytes from 192.168.0.90: icmp_seq=38 ttl=64 time=0.395 ms
+64 bytes from 192.168.0.90: icmp_seq=39 ttl=64 time=0.401 ms
+64 bytes from 192.168.0.90: icmp_seq=40 ttl=64 time=0.399 ms
+64 bytes from 192.168.0.90: icmp_seq=41 ttl=64 time=0.279 ms
+64 bytes from 192.168.0.90: icmp_seq=42 ttl=64 time=0.391 ms
+64 bytes from 192.168.0.90: icmp_seq=43 ttl=64 time=0.375 ms
+64 bytes from 192.168.0.90: icmp_seq=44 ttl=64 time=0.377 ms
+64 bytes from 192.168.0.90: icmp_seq=45 ttl=64 time=0.274 ms
+64 bytes from 192.168.0.90: icmp_seq=46 ttl=64 time=0.401 ms
+64 bytes from 192.168.0.90: icmp_seq=47 ttl=64 time=0.398 ms
+64 bytes from 192.168.0.90: icmp_seq=48 ttl=64 time=0.389 ms
+64 bytes from 192.168.0.90: icmp_seq=49 ttl=64 time=0.627 ms
+64 bytes from 192.168.0.90: icmp_seq=50 ttl=64 time=0.379 ms
+64 bytes from 192.168.0.90: icmp_seq=51 ttl=64 time=0.402 ms
+64 bytes from 192.168.0.90: icmp_seq=52 ttl=64 time=0.383 ms
+64 bytes from 192.168.0.90: icmp_seq=53 ttl=64 time=0.615 ms
+64 bytes from 192.168.0.90: icmp_seq=54 ttl=64 time=0.383 ms
+64 bytes from 192.168.0.90: icmp_seq=55 ttl=64 time=0.264 ms
+64 bytes from 192.168.0.90: icmp_seq=56 ttl=64 time=0.283 ms
+64 bytes from 192.168.0.90: icmp_seq=57 ttl=64 time=0.616 ms
+64 bytes from 192.168.0.90: icmp_seq=58 ttl=64 time=0.278 ms
+64 bytes from 192.168.0.90: icmp_seq=59 ttl=64 time=0.373 ms
+64 bytes from 192.168.0.90: icmp_seq=60 ttl=64 time=0.300 ms
+64 bytes from 192.168.0.90: icmp_seq=61 ttl=64 time=0.581 ms
+64 bytes from 192.168.0.90: icmp_seq=62 ttl=64 time=0.373 ms
+64 bytes from 192.168.0.90: icmp_seq=63 ttl=64 time=0.384 ms
+64 bytes from 192.168.0.90: icmp_seq=64 ttl=64 time=0.617 ms
+64 bytes from 192.168.0.90: icmp_seq=65 ttl=64 time=0.623 ms
+64 bytes from 192.168.0.90: icmp_seq=66 ttl=64 time=0.391 ms
+64 bytes from 192.168.0.90: icmp_seq=67 ttl=64 time=0.619 ms
+64 bytes from 192.168.0.90: icmp_seq=68 ttl=64 time=0.384 ms
+64 bytes from 192.168.0.90: icmp_seq=69 ttl=64 time=0.290 ms
+64 bytes from 192.168.0.90: icmp_seq=70 ttl=64 time=0.570 ms
+64 bytes from 192.168.0.90: icmp_seq=71 ttl=64 time=0.387 ms
+64 bytes from 192.168.0.90: icmp_seq=72 ttl=64 time=0.396 ms
+64 bytes from 192.168.0.90: icmp_seq=73 ttl=64 time=0.580 ms
+^[[A^[[B^Z
+[1]+  Stopped                 sudo ping 192.168.0.90
+cec@cec-H110M-S2:~$ sudo ifdown enp1s0
+Unknown interface enp1s0
+cec@cec-H110M-S2:~$ ifconfig
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:67:57  
+          inet addr:192.168.0.97  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::9843:8dc8:c357:a63e/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:10297945 errors:0 dropped:7639 overruns:0 frame:0
+          TX packets:18723 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3554361398 (3.5 GB)  TX bytes:2589727 (2.5 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:56369 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:56369 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:4313398 (4.3 MB)  TX bytes:4313398 (4.3 MB)
+
+
+cec@cec-H110M-S2:~$ sudo ifconfig enp1s0 down
+cec@cec-H110M-S2:~$ 
+
