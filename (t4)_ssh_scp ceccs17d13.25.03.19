@@ -89,7 +89,8 @@ Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 278 packages can be updated.
 0 updates are security updates.
 
-Last login: Mon Mar 25 11:03:49 2019 from 192.168.0.246
+Last login: Mon Mar 25 11:03:49 2019 from 192.168.0.246
+
 $ ls
 ash.txt  examples.desktop  me.txt  name.txt  test  you.txt
 $ rmdir new
@@ -128,7 +129,8 @@ cs17d13@192.168.0.30's password:
 /home/cec/me.txt: Permission denied
 $ ^Z
 $ exit
-Connection to 192.168.0.30 closed.
+Connection to 192.168.0.30 closed.
+
 ]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ scp me.txt cs17d13@192.168.0.30:/home/cs17d13
 .
               |
@@ -136,7 +138,9 @@ Connection to 192.168.0.30 closed.
  \  \  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs17d13@192.168.0.30's password: 
-me.txt                                                                                                                                                    0%    0     0.0KB/s   --:-- ETAme.txt                                                                                                                                                  100%   19     0.0KB/s   00:00    
+
+me.txt                                                                                                                                                    0%    0     0.0KB/s   --:-- ETA
+me.txt                                                                                                                                                  100%   19     0.0KB/s   00:00    
 ]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ scp cs17d13@192.168.0.30:/home/cs17d13/me.txt /home/cec
 .
               |
@@ -144,7 +148,9 @@ cs17d13@192.168.0.30's password:
  \  \  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs17d13@192.168.0.30's password: 
-me.txt                                                                                                                                                    0%    0     0.0KB/s   --:-- ETAme.txt                                                                                                                                                  100%   19     0.0KB/s   00:00    
+
+me.txt                                                                                                                                                    0%    0     0.0KB/s   --:-- ETA
+me.txt                                                                                                                                                  100%   19     0.0KB/s   00:00    
 ]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ exit
 exit
 
