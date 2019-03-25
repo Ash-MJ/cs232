@@ -1,0 +1,87 @@
+cec@cec-H110M-S2:~$ ssh cs17d13@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d13@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Mar 25 10:12:56 2019 from 192.168.0.246
+$ ls
+examples.desktop  me.txt  name.txt  test
+$ touch you.txt
+$ ls 
+examples.desktop  me.txt  name.txt  test  you.txt
+$ rm you.txt
+$ ls
+examples.desktop  me.txt  name.txt  test
+$ cat me.txt
+Ashish Mathew John
+$ pwd
+/home/cs17d13
+$ find me.txt
+me.txt
+$ history
+-sh: 9: history: not found
+$ du
+4	./.cache
+4	./test
+40	./.config/plank/dock1/launchers
+44	./.config/plank/dock1
+48	./.config/plank
+52	./.config
+8	./.ssh
+148	.
+$ cp /home/cec/me.txt cs17d13@192.168.0.30
+$ cp me.txt ash.txt
+$ cat ash.txt
+Ashish Mathew John
+$ scp me.txt you.txt
+$ cat you.txt
+Ashish Mathew John
+$ ls
+ash.txt  examples.desktop  me.txt  name.txt  test  you.txt
+cec@cec-H110M-S2:~$ scp cs17d13@192.168.0.30:/home/cs17d13/me.txt /home/cec
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d13@192.168.0.30's password: 
+me.txt                                                                                                                                                  100%   19     0.0KB/s   00:00    
+cec@cec-H110M-S2:~$ ls
+a.out     ceccs17d13.18.03.19.txt  Documents  edetails.txt  examples.desktop  ipc.c   Music    Pictures  signal.c   Videos          wireshark-2.5.0
+ashi.txt  Desktop                  Downloads  employee.c    ftp.txt           me.txt  myprgms  Public    Templates  VirtualBox VMs
+cec@cec-H110M-S2:~$ ls -n
+total 140
+-rwxrwxr-x  1 1000 1000  8656 Feb  8 12:00 a.out
+-rw-rw-r--  1 1000 1000    19 Mar 25 10:18 ashi.txt
+-rw-rw-r--  1 1000 1000 34476 Mar 18 11:55 ceccs17d13.18.03.19.txt
+drwxr-xr-x  2 1000 1000  4096 Mar 25 09:57 Desktop
+drwxr-xr-x  2 1000 1000  4096 Mar  9  2018 Documents
+drwxr-xr-x  3 1000 1000  4096 Mar  8 10:13 Downloads
+-rw-rwxrw-  1 1000 1000    24 Feb  8 12:17 edetails.txt
+-rw-rw-r--  1 1000 1000   445 Feb  8 12:21 employee.c
+-rw-r--r--  1 1000 1000  8980 Mar  9  2018 examples.desktop
+-rw-rw-r--  1 1000 1000  7675 Mar 18 11:54 ftp.txt
+-rw-rw-r--  1 1000 1000   120 Mar 15 11:32 ipc.c
+-rw-r--r--  1 1000 1000    19 Mar 25 11:15 me.txt
+drwxr-xr-x  2 1000 1000  4096 Mar  9  2018 Music
+drwxrwxr-x  2 1000 1000  4096 Mar 15 11:08 myprgms
+drwxr-xr-x  3 1000 1000  4096 Mar  9  2018 Pictures
+drwxr-xr-x  2 1000 1000  4096 Mar  9  2018 Public
+-rw-rw-r--  1 1000 1000   325 Feb 26 14:02 signal.c
+drwxr-xr-x  2 1000 1000  4096 Mar  9  2018 Templates
+drwxr-xr-x  2 1000 1000  4096 Mar  9  2018 Videos
+drwxrwxr-x  6 1000 1000  4096 Mar 23  2018 VirtualBox VMs
+drwxr-xr-x 31 1000 1000  4096 Feb  7  2018 wireshark-2.5.0
+cec@cec-H110M-S2:~$ scp ftp.txt /home/cs17d13
+cp: cannot create regular file '/home/cs17d13': Permission denied
+cec@cec-H110M-S2:~$ 
+
