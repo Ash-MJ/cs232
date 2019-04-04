@@ -1,0 +1,53 @@
+cec@cec-H110M-S2:~$ sudo apt-get install vsftpd
+[sudo] password for cec: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+vsftpd is already the newest version (3.0.3-3ubuntu2).
+0 upgraded, 0 newly installed, 0 to remove and 98 not upgraded.
+cec@cec-H110M-S2:~$ sudo nano /etc/vsftpd.conf
+cec@cec-H110M-S2:~$ sudo systemctl restart vsftpd
+cec@cec-H110M-S2:~$ sudo systemctl status vsftpd
+● vsftpd.service - vsftpd FTP server
+   Loaded: loaded (/lib/systemd/system/vsftpd.service; enabled; vendor preset: enabled)
+   Active: active (running) since Thu 2019-04-04 10:49:44 IST; 25s ago
+  Process: 8766 ExecStartPre=/bin/mkdir -p /var/run/vsftpd/empty (code=exited, status=0/SUCC
+ Main PID: 8768 (vsftpd)
+   CGroup: /system.slice/vsftpd.service
+           ├─8768 /usr/sbin/vsftpd /etc/vsftpd.conf
+           ├─8770 /usr/sbin/vsftpd /etc/vsftpd.conf
+           └─8774 /usr/sbin/vsftpd /etc/vsftpd.conf
+
+Apr 04 10:49:44 cec-H110M-S2 systemd[1]: Starting vsftpd FTP server...
+Apr 04 10:49:44 cec-H110M-S2 systemd[1]: Started vsftpd FTP server.
+
+[1]+  Stopped                 sudo systemctl status vsftpd
+cec@cec-H110M-S2:~$ sudo adduser Ashish
+adduser: Please enter a username matching the regular expression configured
+via the NAME_REGEX[_SYSTEM] configuration variable.  Use the `--force-badname'
+option to relax this check or reconfigure NAME_REGEX.
+cec@cec-H110M-S2:~$ sudo adduser ashish
+Adding user `ashish' ...
+Adding new group `ashish' (1011) ...
+Adding new user `ashish' (1011) with group `ashish' ...
+Creating home directory `/home/ashish' ...
+Copying files from `/etc/skel' ...
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+Changing the user information for ashish
+Enter the new value, or press ENTER for the default
+	Full Name []: Ashish Mathew John
+	Room Number []: 2
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] y
+cec@cec-H110M-S2:~$ sudo telnet localhost 21
+[sudo] password for cec: 
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+220 Welcome to blah FTP service.
+
+
