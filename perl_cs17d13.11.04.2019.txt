@@ -1,0 +1,32 @@
+cec@cec-H110M-S2:~$ sudo apt-get install nginx
+[sudo] password for cec: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+nginx is already the newest version (1.10.3-0ubuntu0.16.04.3).
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+cec@cec-H110M-S2:~$ service nginx status
+● nginx.service - A high performance web server and a reverse proxy server
+   Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)
+   Active: active (running) since Thu 2019-04-11 09:00:06 IST; 26min ago
+  Process: 1001 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+  Process: 951 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+ Main PID: 1002 (nginx)
+   CGroup: /system.slice/nginx.service
+           ├─1002 nginx: master process /usr/sbin/nginx -g daemon on; master_process on
+           ├─1003 nginx: worker process                           
+           ├─1004 nginx: worker process                           
+           ├─1005 nginx: worker process                           
+           └─1006 nginx: worker process                           
+
+Apr 11 09:00:04 cec-H110M-S2 systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 11 09:00:06 cec-H110M-S2 systemd[1]: Started A high performance web server and a reverse proxy server.
+cec@cec-H110M-S2:~$ sudo gedit /etc/nginx/sites-enabled/default
+ 
+sudo gedit /var/www/html/index.html
+
+ 
+^C
+cec@cec-H110M-S2:~$ sudo gedit /var/www/html/index.html
+
+
