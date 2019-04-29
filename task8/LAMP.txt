@@ -69,33 +69,334 @@ declare -x https_proxy="https://192.168.0.2:3128/"
 declare -x no_proxy="localhost,127.0.0.0/8,::1"
 declare -x socks_proxy="socks://192.168.0.2:3128/"
 bash: /opt/ns-allinone-2.35/tk8.5.10/unix/: No such file or directory
-]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ [K]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt update
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ 
+[K]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt update
 [sudo] password for cec: 
-[33m0% [Working][0m            Hit:1 http://in.archive.ubuntu.com/ubuntu xenial InRelease
-[33m0% [Waiting for headers] [Waiting for headers][0m[33m0% [1 InRelease gpgv 247 kB] [Waiting for headers] [Waiting for headers] [Waiti[0m                                                                               Ign:2 http://dl.google.com/linux/chrome/deb stable InRelease
-[33m                                                                               0% [1 InRelease gpgv 247 kB] [Waiting for headers] [Waiting for headers][0m[33m                                                                        0% [Waiting for headers] [Waiting for headers] [Waiting for headers][0m                                                                    Get:3 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]
-[33m0% [3 InRelease 11.9 kB/109 kB 11%] [Waiting for headers] [Waiting for headers][0m[33m                                                                               0% [Waiting for headers] [Waiting for headers][0m[33m0% [3 InRelease gpgv 109 kB] [Waiting for headers] [Waiting for headers] [Waiti[0m                                                                               Get:4 http://security.ubuntu.com/ubuntu xenial-security InRelease [109 kB]
-[33m0% [3 InRelease gpgv 109 kB] [Waiting for headers] [4 InRelease 11.9 kB/109 kB [0m[33m                                                                               0% [3 InRelease gpgv 109 kB] [Waiting for headers] [Waiting for headers][0m                                                                        Hit:5 https://packages.microsoft.com/repos/vscode stable InRelease
-[33m0% [3 InRelease gpgv 109 kB] [Waiting for headers] [Waiting for headers][0m[33m                                                                        0% [Waiting for headers] [Waiting for headers][0m[33m0% [4 InRelease gpgv 109 kB] [Waiting for headers] [Waiting for headers][0m[33m                                                                        0% [Waiting for headers] [Waiting for headers][0m[33m0% [5 InRelease gpgv 3,182 B] [Waiting for headers] [Waiting for headers][0m[33m                                                                         0% [Waiting for headers] [Waiting for headers][0m                                              Get:6 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]
-[33m0% [6 InRelease 8,089 B/107 kB 8%] [Waiting for headers][0m[33m                                                        0% [Waiting for headers][0m[33m0% [6 InRelease gpgv 107 kB] [Waiting for headers][0m[33m                                                  0% [Waiting for headers][0m                        Hit:7 http://dl.google.com/linux/chrome/deb stable Release
-[33m                        99% [Working][0m[33m99% [Release.gpg gpgv 943 B][0m[33m                            100% [Working][0m              Fetched 325 kB in 1s (251 kB/s)
-Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 4%Reading package lists... 4%Reading package lists... 8%Reading package lists... 8%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 33%Reading package lists... 33%Reading package lists... 52%Reading package lists... 56%Reading package lists... 56%Reading package lists... 69%Reading package lists... 69%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 74%Reading package lists... 74%Reading package lists... 77%Reading package lists... 77%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 83%Reading package lists... 83%Reading package lists... 85%Reading package lists... 85%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 89%Reading package lists... 89%Reading package lists... 91%Reading package lists... 91%Reading package lists... 92%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 1%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
+[33m
+0% [Working][0m
+            
+Hit:1 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+[33m
+0% [Waiting for headers] [Waiting for headers][0m[33m
+0% [1 InRelease gpgv 247 kB] [Waiting for headers] [Waiting for headers] [Waiti[0m
+                                                                               
+Ign:2 http://dl.google.com/linux/chrome/deb stable InRelease
+[33m
+                                                                               
+0% [1 InRelease gpgv 247 kB] [Waiting for headers] [Waiting for headers][0m[33m
+                                                                        
+0% [Waiting for headers] [Waiting for headers] [Waiting for headers][0m
+                                                                    
+Get:3 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]
+[33m
+0% [3 InRelease 11.9 kB/109 kB 11%] [Waiting for headers] [Waiting for headers][0m[33m
+                                                                               
+0% [Waiting for headers] [Waiting for headers][0m[33m
+0% [3 InRelease gpgv 109 kB] [Waiting for headers] [Waiting for headers] [Waiti[0m
+                                                                               
+Get:4 http://security.ubuntu.com/ubuntu xenial-security InRelease [109 kB]
+[33m
+0% [3 InRelease gpgv 109 kB] [Waiting for headers] [4 InRelease 11.9 kB/109 kB [0m[33m
+                                                                               
+0% [3 InRelease gpgv 109 kB] [Waiting for headers] [Waiting for headers][0m
+                                                                        
+Hit:5 https://packages.microsoft.com/repos/vscode stable InRelease
+[33m
+0% [3 InRelease gpgv 109 kB] [Waiting for headers] [Waiting for headers][0m[33m
+                                                                        
+0% [Waiting for headers] [Waiting for headers][0m[33m
+0% [4 InRelease gpgv 109 kB] [Waiting for headers] [Waiting for headers][0m[33m
+                                                                        
+0% [Waiting for headers] [Waiting for headers][0m[33m
+0% [5 InRelease gpgv 3,182 B] [Waiting for headers] [Waiting for headers][0m[33m
+                                                                         
+0% [Waiting for headers] [Waiting for headers][0m
+                                              
+Get:6 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]
+[33m
+0% [6 InRelease 8,089 B/107 kB 8%] [Waiting for headers][0m[33m
+                                                        
+0% [Waiting for headers][0m[33m
+0% [6 InRelease gpgv 107 kB] [Waiting for headers][0m[33m
+                                                  
+0% [Waiting for headers][0m
+                        
+Hit:7 http://dl.google.com/linux/chrome/deb stable Release
+[33m
+                        
+99% [Working][0m[33m
+99% [Release.gpg gpgv 943 B][0m[33m
+                            
+100% [Working][0m
+              
+Fetched 325 kB in 1s (251 kB/s)
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 1%
+
+Reading package lists... 4%
+
+Reading package lists... 4%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 33%
+
+Reading package lists... 33%
+
+Reading package lists... 52%
+
+Reading package lists... 56%
+
+Reading package lists... 56%
+
+Reading package lists... 69%
+
+Reading package lists... 69%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 83%
+
+Reading package lists... 83%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 89%
+
+Reading package lists... 89%
+
+Reading package lists... 91%
+
+Reading package lists... 91%
+
+Reading package lists... 92%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 1%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
 4 packages can be upgraded. Run 'apt list --upgradable' to see them.
 ]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt install apache2
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
 apache2 is already the newest version (2.4.18-2ubuntu3.10).
 The following package was automatically installed and is no longer required:
   libevent-core-2.0-5
 Use 'sudo apt autoremove' to remove it.
 0 upgraded, 0 newly installed, 0 to remove and 4 not upgraded.
 ]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get install mariadb-server mariadb-client
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
 mariadb-server is already the newest version (10.0.38-0ubuntu0.16.04.1).
 The following package was automatically installed and is no longer required:
   libevent-core-2.0-5
@@ -106,10 +407,40 @@ The following NEW packages will be installed:
 Need to get 13.0 kB of archives.
 After this operation, 62.5 kB of additional disk space will be used.
 Do you want to continue? [Y/n] y
-0% [Working]0% [Waiting for headers]                        Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 mariadb-client all 10.0.38-0ubuntu0.16.04.1 [13.0 kB]
-34% [1 mariadb-client 5,455 B/13.0 kB 42%]                                          100% [Working]              Fetched 13.0 kB in 0s (21.5 kB/s)
+
+0% [Working]
+0% [Waiting for headers]
+                        
+Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 mariadb-client all 10.0.38-0ubuntu0.16.04.1 [13.0 kB]
+
+34% [1 mariadb-client 5,455 B/13.0 kB 42%]
+                                          
+100% [Working]
+              
+Fetched 13.0 kB in 0s (21.5 kB/s)
 Selecting previously unselected package mariadb-client.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 233353 files and directories currently installed.)
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 233353 files and directories currently installed.)
 Preparing to unpack .../mariadb-client_10.0.38-0ubuntu0.16.04.1_all.deb ...
 Unpacking mariadb-client (10.0.38-0ubuntu0.16.04.1) ...
 Setting up mariadb-client (10.0.38-0ubuntu0.16.04.1) ...
@@ -181,9 +512,31 @@ Server version: 10.0.38-MariaDB-0ubuntu0.16.04.1 Ubuntu 16.04
 (B[mMariaDB [(none)]> ec[Kxit
 (B[0;1mBye
 (B[m]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get install software-properties-common
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
 software-properties-common is already the newest version (0.96.20.8).
 The following package was automatically installed and is no longer required:
   libevent-core-2.0-5
@@ -223,9 +576,45 @@ gpg: Total number processed: 1
 gpg:               imported: 1  (RSA: 1)
 OK
 ]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo nano /var/www/html/index.php
-[?1049h[1;55r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J[53d(B[0;7mFile /var/www/html is being edited (by root with VIM 7.4, PID 11845); continue?             [54;1H Y(B[m Yes[55d(B[0;7m N(B[m No[55;17H(B[0;7m^C(B[m Cancel[53;80H[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                    New Buffer                                              [53;1H(B[m[K[54d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[55d(B[0;7m^X(B[m Exit[55;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line[3d[1;83H(B[0;7mModified[4d(B[m<?php[5d# Here echo command is used to print[6decho "Hello, world!";[7d?>[8d[A?> [Ao[Are echo command is used to print                            [K[?25l[53;31H(B[0;7m[ XOFF ignored, mumble mumble ][5d(B[m[?12l[?25h[?25l[?12l[?25h[53d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                [54;1H Y(B[m Yes[K[55d(B[0;7m N(B[m No  [55;16H (B[0;7m^C(B[m Cancel[K[53;62H[J[55;92H[55;1H[?1049l[?1l>]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo nano /var/www/html/index.php
-[?1049h[1;55r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J[53d(B[0;7mFile /var/www/html is being edited (by root with VIM 7.4, PID 11845); continue?             [54;1H Y(B[m Yes[55d(B[0;7m N(B[m No[55;17H(B[0;7m^C(B[m Cancel[53;80H[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                    New Buffer                                    Modified  [3;1H(B[md is used to print[4decho "Hello, world!";[5d?>[53d[K[54d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[55d(B[0;7m^X(B[m Exit[55;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line[6d[A?>  [K[4;23H                  [K[3;19H             [K[4d<?php[5d# Here echo command is used to print[6decho "Hello, world!";[7d?>[8d[A?> [A[A[Ap[5dere echo command is used to print                            [K[5;53r[53;1H
-[1;55r[4;7H[?25l[53;31H(B[0;7m[ XOFF ignored, mumble mumble ][4;7H(B[m[?12l[?25h[53d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                [54;1H Y(B[m Yes[K[55d(B[0;7m N(B[m No  [55;16H (B[0;7m^C(B[m Cancel[K[53;62H(B[0;7mFile Name to Write:                                         [54d^G(B[m Get Help[19G(B[0;7mM-D(B[m DOS Format    (B[0;7mM-A(B[m Append[54;55H(B[0;7mM-B(B[m Backup File[55d(B[0;7m^C(B[m Cancel[17G  (B[0;7mM-M(B[m Mac Format    (B[0;7mM-P(B[m Prepend[55G(B[0;7m^T(B[m To Files[53;21H[?25l[53;39H[1K (B[0;7m[ Cancelled ](B[m[K[4;7H[?12l[?25h[54;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[55;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line[4;7H[?25l[53;31H(B[0;7m[ XOFF ignored, mumble mumble ][4;7H(B[m[?12l[?25h[53d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                [54;1H Y(B[m Yes[K[55d(B[0;7m N(B[m No  [55;16H (B[0;7m^C(B[m Cancel[K[53;62H(B[0;7mFile Name to Write:                                         [54d^G(B[m Get Help[19G(B[0;7mM-D(B[m DOS Format    (B[0;7mM-A(B[m Append[54;55H(B[0;7mM-B(B[m Backup File[55d(B[0;7m^C(B[m Cancel[17G  (B[0;7mM-M(B[m Mac Format    (B[0;7mM-P(B[m Prepend[55G(B[0;7m^T(B[m To Files[53;21H(B[0;7mi(B[m(B[0;7mn(B[m(B[0;7md(B[m(B[0;7me(B[m(B[0;7mx(B[m(B[0;7m.(B[m(B[0;7mp(B[m(B[0;7mh(B[m(B[0;7mp(B[m[?25l[4d(B[0;1m[32m<?php(B[0m[42m [5d(B[0;1m[33m"Hello, world!"[39m(B[m;[42m [6d(B[0;1m[32m?>[53;37H[39m(B[m[1K (B[0;7m[ Wrote 4 lines ](B[m[K[4;7H[53d[J[1;35H(B[0;7mFile: index.php[1;83H        [55;92H(B[m[55;1H[?12l[?25h[?1049l[?1l>]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo nano /var/www/html/index.php[1P /var/www/html/index.php[1P /var/www/html/index.php[1P /var/www/html/index.php[1P /var/www/html/index.phpc /var/www/html/index.phpa /var/www/html/index.phpt /var/www/html/index.php
+[?1049h[1;55r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J[53d(B[0;7mFile /var/www/html is being edited (by root with VIM 7.4, PID 11845); continue?             [54;1H Y(B[m Yes
+[55d(B[0;7m N(B[m No[55;17H(B[0;7m^C(B[m Cancel[53;80H[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                    New Buffer                                              [53;1H(B[m[K[54d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos
+[55d(B[0;7m^X(B[m Exit[55;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line
+[3d[1;83H(B[0;7mModified
+[4d(B[m<?php
+[5d# Here echo command is used to print
+[6decho "Hello, world!";
+[7d?>
+[8d[A?> [Ao[Are echo command is used to print                            [K[?25l[53;31H(B[0;7m[ XOFF ignored, mumble mumble ]
+[5d(B[m[?12l[?25h[?25l[?12l[?25h[53d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                [54;1H Y(B[m Yes[K
+[55d(B[0;7m N(B[m No  [55;16H (B[0;7m^C(B[m Cancel[K[53;62H
+[J[55;92H[55;1H[?1049l
+[?1l>]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo nano /var/www/html/index.php
+[?1049h[1;55r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J[53d(B[0;7mFile /var/www/html is being edited (by root with VIM 7.4, PID 11845); continue?             [54;1H Y(B[m Yes
+[55d(B[0;7m N(B[m No[55;17H(B[0;7m^C(B[m Cancel[53;80H[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                    New Buffer                                    Modified  [3;1H(B[md is used to print
+[4decho "Hello, world!";
+[5d?>
+[53d[K[54d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos
+[55d(B[0;7m^X(B[m Exit[55;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line
+[6d[A?>  [K[4;23H                  [K[3;19H             [K[4d<?php
+[5d# Here echo command is used to print
+[6decho "Hello, world!";
+[7d?>
+[8d[A?> [A[A[Ap[5dere echo command is used to print                            [K[5;53r[53;1H
+[1;55r[4;7H[?25l[53;31H(B[0;7m[ XOFF ignored, mumble mumble ][4;7H(B[m[?12l[?25h
+[53d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                [54;1H Y(B[m Yes[K
+[55d(B[0;7m N(B[m No  [55;16H (B[0;7m^C(B[m Cancel[K[53;62H
+(B[0;7mFile Name to Write:                                         
+[54d^G(B[m Get Help[19G(B[0;7mM-D(B[m DOS Format    (B[0;7mM-A(B[m Append[54;55H(B[0;7mM-B(B[m Backup File
+[55d(B[0;7m^C(B[m Cancel[17G  (B[0;7mM-M(B[m Mac Format    (B[0;7mM-P(B[m Prepend[55G(B[0;7m^T(B[m To Files[53;21H[?25l[53;39H[1K (B[0;7m[ Cancelled ](B[m[K[4;7H[?12l[?25h[54;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[55;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line[4;7H[?25l[53;31H(B[0;7m[ XOFF ignored, mumble mumble ][4;7H(B[m[?12l[?25h
+[53d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                [54;1H Y(B[m Yes[K
+[55d(B[0;7m N(B[m No  [55;16H (B[0;7m^C(B[m Cancel[K[53;62H
+(B[0;7mFile Name to Write:                                         
+[54d^G(B[m Get Help[19G(B[0;7mM-D(B[m DOS Format    (B[0;7mM-A(B[m Append[54;55H(B[0;7mM-B(B[m Backup File
+[55d(B[0;7m^C(B[m Cancel[17G  (B[0;7mM-M(B[m Mac Format    (B[0;7mM-P(B[m Prepend[55G(B[0;7m^T(B[m To Files[53;21H(B[0;7mi(B[m(B[0;7mn(B[m(B[0;7md(B[m(B[0;7me(B[m(B[0;7mx(B[m(B[0;7m.(B[m(B[0;7mp(B[m(B[0;7mh(B[m(B[0;7mp(B[m[?25l
+[4d(B[0;1m[32m<?php(B[0m[42m [5d(B[0;1m[33m"Hello, world!"[39m(B[m;[42m 
+[6d(B[0;1m[32m?>[53;37H[39m(B[m[1K (B[0;7m[ Wrote 4 lines ](B[m[K[4;7H
+[53d[J[1;35H(B[0;7mFile: index.php[1;83H        [55;92H(B[m[55;1H[?12l[?25h[?1049l
+[?1l>]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo nano /var/www/html/index.php[1P /var/www/html/index.php[1P /var/www/html/index.php[1P /var/www/html/index.php[1P /var/www/html/index.phpc /var/www/html/index.phpa /var/www/html/index.phpt /var/www/html/index.php
 <?php
    ob_start();
    session_start();
@@ -526,7 +915,8 @@ Status: inactive
 ]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ sudo ufw status
 Status: inactive
 ]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ sudo systemctl status apache2
-[?1h=[0;1;32m●[0m apache2.service - LSB: Apache2 web server[m
+[?1h=
+[0;1;32m●[0m apache2.service - LSB: Apache2 web server[m
    Loaded: loaded (/etc/init.d/apache2; bad; vendor preset: enabled)[m
   Drop-In: /lib/systemd/system/apache2.service.d[m
            └─apache2-systemd.conf[m
@@ -547,7 +937,8 @@ Apr 29 11:28:30 cec-H110M-S2 apache2[17829]:  * Starting Apache httpd web server
 Apr 29 11:28:31 cec-H110M-S2 apache2[17829]: AH00558: apache2: Could not reliably determine [m
 Apr 29 11:28:32 cec-H110M-S2 apache2[17829]:  *[m
 Apr 29 11:28:32 cec-H110M-S2 systemd[1]: Started LSB: Apache2 web server.[m
-[7mlines 1-21/21 (END)[27m[K[K[?1l>
+[7mlines 1-21/21 (END)[27m[K
+[K[?1l>
 [1]+  Stopped                 sudo systemctl status apache2
 ]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ exit
 exit
