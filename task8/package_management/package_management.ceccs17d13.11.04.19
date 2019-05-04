@@ -1,0 +1,619 @@
+Script started on Thursday 11 April 2019 10:39:24 AM IST
+
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt
+[K]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt update
+[sudo] password for cec: 
+[33m
+0% [Working][0m
+            
+Ign:1 http://dl.google.com/linux/chrome/deb stable InRelease
+[33m
+0% [Waiting for headers] [Waiting for headers][0m
+                                              
+Hit:2 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+[33m
+0% [Waiting for headers] [Waiting for headers][0m[33m
+0% [2 InRelease gpgv 247 kB] [Waiting for headers] [Waiting for headers] [Waiting for heade[0m
+                                                                                           
+Get:3 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]
+[33m
+0% [2 InRelease gpgv 247 kB] [3 InRelease 9,537 B/109 kB 9%] [Waiting for headers] [Waiting[0m[33m
+                                                                                           
+0% [2 InRelease gpgv 247 kB] [Waiting for headers] [Waiting for headers][0m
+                                                                        
+Get:4 http://security.ubuntu.com/ubuntu xenial-security InRelease [109 kB]
+[33m
+0% [2 InRelease gpgv 247 kB] [Waiting for headers] [4 InRelease 32.2 kB/109 kB 29%] [Waitin[0m[33m
+                                                                                           
+0% [2 InRelease gpgv 247 kB] [Waiting for headers] [Waiting for headers][0m[33m
+                                                                        
+0% [Waiting for headers] [Waiting for headers][0m[33m
+0% [3 InRelease gpgv 109 kB] [Waiting for headers] [Waiting for headers][0m[33m
+                                                                        
+0% [Waiting for headers] [Waiting for headers][0m[33m
+0% [4 InRelease gpgv 109 kB] [Waiting for headers] [Waiting for headers][0m
+                                                                        
+Hit:5 https://packages.microsoft.com/repos/vscode stable InRelease
+[33m
+0% [4 InRelease gpgv 109 kB] [Waiting for headers] [Waiting for headers][0m[33m
+                                                                        
+0% [Waiting for headers] [Waiting for headers][0m[33m
+0% [5 InRelease gpgv 3,182 B] [Waiting for headers] [Waiting for headers][0m
+                                                                         
+Get:6 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]
+[33m
+0% [5 InRelease gpgv 3,182 B] [6 InRelease 2,469 B/107 kB 2%] [Waiting for headers][0m[33m
+                                                                                   
+0% [5 InRelease gpgv 3,182 B] [Waiting for headers][0m[33m
+                                                   
+0% [Waiting for headers][0m[33m
+0% [6 InRelease gpgv 107 kB] [Waiting for headers][0m[33m
+                                                  
+0% [Waiting for headers][0m
+                        
+Hit:7 http://dl.google.com/linux/chrome/deb stable Release
+[33m
+                        
+99% [Working][0m[33m
+99% [Release.gpg gpgv 943 B][0m[33m
+                            
+100% [Working][0m
+              
+Fetched 325 kB in 0s (403 kB/s)
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 1%
+
+Reading package lists... 4%
+
+Reading package lists... 4%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 33%
+
+Reading package lists... 33%
+
+Reading package lists... 56%
+
+Reading package lists... 56%
+
+Reading package lists... 61%
+
+Reading package lists... 69%
+
+Reading package lists... 69%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 83%
+
+Reading package lists... 83%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 89%
+
+Reading package lists... 89%
+
+Reading package lists... 91%
+
+Reading package lists... 91%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 1%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+4 packages can be upgraded. Run 'apt list --upgradable' to see them.
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get install nginx
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+nginx is already the newest version (1.10.3-0ubuntu0.16.04.3).
+0 upgraded, 0 newly installed, 0 to remove and 4 not upgraded.
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get install nginx[K[K[K[K[Ksynaptic
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following additional packages will be installed:
+  docbook-xml libept1.5.0 librarian0 rarian-compat sgml-data
+Suggested packages:
+  docbook docbook-dsssl docbook-xsl docbook-defguide perlsgml w3-recs opensp libxml2-utils
+  dwww menu deborphan apt-xapian-index tasksel
+The following NEW packages will be installed:
+  docbook-xml libept1.5.0 librarian0 rarian-compat sgml-data synaptic
+0 upgraded, 6 newly installed, 0 to remove and 4 not upgraded.
+Need to get 1,785 kB of archives.
+After this operation, 11.6 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+
+0% [Working]
+            
+Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 sgml-data all 2.0.10 [173 kB]
+
+0% [1 sgml-data 2,557 B/173 kB 1%]
+5% [1 sgml-data 110 kB/173 kB 63%]
+                                  
+11% [Working]
+             
+Get:2 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 docbook-xml all 4.5-7.3 [74.4 kB]
+
+11% [2 docbook-xml 2,559 B/74.4 kB 3%]
+                                      
+18% [Waiting for headers]
+                         
+Get:3 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 libept1.5.0 amd64 1.1+nmu3 [77.6 kB]
+
+18% [3 libept1.5.0 2,559 B/77.6 kB 3%]
+                                      
+25% [Waiting for headers]
+                         
+Get:4 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 librarian0 amd64 0.8.1-6 [50.4 kB]
+
+25% [4 librarian0 2,560 B/50.4 kB 5%]
+                                     
+30% [Working]
+             
+Get:5 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 rarian-compat amd64 0.8.1-6 [55.7 kB]
+
+30% [5 rarian-compat 2,560 B/55.7 kB 5%]
+                                        
+36% [Waiting for headers]
+                         
+Get:6 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 synaptic amd64 0.83 [1,354 kB]
+
+36% [6 synaptic 2,556 B/1,354 kB 0%]
+64% [6 synaptic 628 kB/1,354 kB 46%]
+                                    
+100% [Working]
+              
+Fetched 1,785 kB in 2s (720 kB/s)
+Selecting previously unselected package sgml-data.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 230936 files and directories currently installed.)
+Preparing to unpack .../sgml-data_2.0.10_all.deb ...
+Unpacking sgml-data (2.0.10) ...
+Selecting previously unselected package docbook-xml.
+Preparing to unpack .../docbook-xml_4.5-7.3_all.deb ...
+Unpacking docbook-xml (4.5-7.3) ...
+Selecting previously unselected package libept1.5.0:amd64.
+Preparing to unpack .../libept1.5.0_1.1+nmu3_amd64.deb ...
+Unpacking libept1.5.0:amd64 (1.1+nmu3) ...
+Selecting previously unselected package librarian0.
+Preparing to unpack .../librarian0_0.8.1-6_amd64.deb ...
+Unpacking librarian0 (0.8.1-6) ...
+Selecting previously unselected package rarian-compat.
+Preparing to unpack .../rarian-compat_0.8.1-6_amd64.deb ...
+Unpacking rarian-compat (0.8.1-6) ...
+Selecting previously unselected package synaptic.
+Preparing to unpack .../synaptic_0.83_amd64.deb ...
+Unpacking synaptic (0.83) ...
+Processing triggers for sgml-base (1.26+nmu4ubuntu1) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for doc-base (0.10.7) ...
+Scrollkeeper was installed, forcing re-registration of all documents.
+Unregistering 41 doc-base files, re-registering 41 doc-base files...
+Registering documents with scrollkeeper...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for desktop-file-utils (0.22-1ubuntu5.2) ...
+Processing triggers for bamfdaemon (0.5.3~bzr0+16.04.20180209-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Processing triggers for gnome-menus (3.13.3-6ubuntu3.1) ...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Processing triggers for hicolor-icon-theme (0.15-0ubuntu1.1) ...
+Setting up sgml-data (2.0.10) ...
+Setting up libept1.5.0:amd64 (1.1+nmu3) ...
+Setting up librarian0 (0.8.1-6) ...
+Setting up synaptic (0.83) ...
+Processing triggers for sgml-base (1.26+nmu4ubuntu1) ...
+Setting up docbook-xml (4.5-7.3) ...
+Processing triggers for sgml-base (1.26+nmu4ubuntu1) ...
+Setting up rarian-compat (0.8.1-6) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apy[Kt-get remove nginx[K[K[K[K[Ksynaptic
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following package was automatically installed and is no longer required:
+  libept1.5.0
+Use 'sudo apt autoremove' to remove it.
+The following packages will be REMOVED:
+  synaptic
+0 upgraded, 0 newly installed, 1 to remove and 4 not upgraded.
+After this operation, 7,113 kB disk space will be freed.
+Do you want to continue? [Y/n] y
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 231599 files and directories currently installed.)
+Removing synaptic (0.83) ...
+Processing triggers for hicolor-icon-theme (0.15-0ubuntu1.1) ...
+Processing triggers for desktop-file-utils (0.22-1ubuntu5.2) ...
+Processing triggers for bamfdaemon (0.5.3~bzr0+16.04.20180209-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Processing triggers for gnome-menus (3.13.3-6ubuntu3.1) ...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Processing triggers for man-db (2.7.5-1) ...
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo-get install perl
+sudo-get: command not found
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get install perl
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+perl is already the newest version (5.22.1-9ubuntu0.6).
+The following package was automatically installed and is no longer required:
+  libept1.5.0
+Use 'sudo apt autoremove' to remove it.
+0 upgraded, 0 newly installed, 0 to remove and 4 not upgraded.
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get install perl[4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C apt-get remove synaptic[1@install[C[C[C[C[C[C[C[C[C[1Premove[C[C[C[C[C[C[C[C[C[1@install[C[C[C[C[C[C[C[C[C
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+Suggested packages:
+  dwww menu deborphan apt-xapian-index tasksel
+The following NEW packages will be installed:
+  synaptic
+0 upgraded, 1 newly installed, 0 to remove and 4 not upgraded.
+Need to get 0 B/1,354 kB of archives.
+After this operation, 7,113 kB of additional disk space will be used.
+Selecting previously unselected package synaptic.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 231326 files and directories currently installed.)
+Preparing to unpack .../synaptic_0.83_amd64.deb ...
+Unpacking synaptic (0.83) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for desktop-file-utils (0.22-1ubuntu5.2) ...
+Processing triggers for bamfdaemon (0.5.3~bzr0+16.04.20180209-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Processing triggers for gnome-menus (3.13.3-6ubuntu3.1) ...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Processing triggers for hicolor-icon-theme (0.15-0ubuntu1.1) ...
+Setting up synaptic (0.83) ...
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get install synaptic[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdownload nano
+
+0% [Working]
+            
+Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 nano amd64 2.5.3-2ubuntu2 [191 kB]
+
+1% [1 nano 2,557 B/191 kB 1%]
+47% [1 nano 113 kB/191 kB 59%]
+                              
+100% [Working]
+              
+Fetched 191 kB in 0s (200 kB/s)
+W: Can't drop privileges for downloading as file '/home/cec/nano_2.5.3-2ubuntu2_amd64.deb' couldn't be accessed by user '_apt'. - pkgAcquire::Run (13: Permission denied)
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Thursday 11 April 2019 10:53:46 AM IST
